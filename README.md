@@ -1,6 +1,10 @@
 # KellyBecker.me
 
-# Helpful GH Api Tools
+# Helpful Stuff
+
+## Ansi Color Code Regex
+
+`\x1b\[[0-9]*(;[0-9]*|)m`
 
 ## Github oAuth Deploy Keys
 
