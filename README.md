@@ -2,6 +2,10 @@
 
 # Helpful Stuff
 
+## Ubuntu Server Display Out of Range
+
+http://ubuntuforums.org/showthread.php?t=1751950&p=10868071#post10868071
+
 ## Ansi Color Code Regex
 
 `\x1b\[[0-9]*(;[0-9]*|)m`
