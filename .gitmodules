@@ -1,0 +1,6 @@
+[submodule "submodules/kModal"]
+	path = submodules/kModal
+	url = https://github.com/KellyLSB/kModal
+[submodule "submodules/defercall"]
+	path = submodules/defercall
+	url = https://github.com/KellyLSB/defercall
