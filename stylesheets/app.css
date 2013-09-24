@@ -27,10 +27,11 @@
  * Overall Classes
  */
 body {
-  background: #c3c3c3;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #e3e3e3), color-stop(1, #a3a3a3));
-  background: -ms-linear-gradient(bottom, #e3e3e3, #a3a3a3);
-  background: -moz-linear-gradient(center bottom, #e3e3e3 0%, #a3a3a3 100%);
+  background: #c3c3c3 url(../images/design/kellybecker_small_edited.jpg) no-repeat top left;
+  background-size: 60%;
+  /*background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #e3e3e3), color-stop(1, #a3a3a3)) url(images/design/kellybecker.jpg);
+  background: -ms-linear-gradient(bottom, #e3e3e3, #a3a3a3) url(images/design/kellybecker.jpg);
+  background: -moz-linear-gradient(center bottom, #e3e3e3 0%, #a3a3a3 100%) url(images/design/kellybecker.jpg);*/
 }
 a {
   color: #6939a7;
