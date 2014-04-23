@@ -1,0 +1,23 @@
+body {
+  & > section.page-footer {
+
+    // Display Blocking
+    margin: 25px auto;
+    display: block;
+
+    // Text Styles
+    @extend .ubuntu.light;
+    @include text-shadow(
+      rgba(#CCC, 0.6) 2px 2px 0
+    );
+  }
+
+  &.splash > section.page-footer {
+
+
+  }
+
+  &.resume > section.page-footer {
+
+  }
+}

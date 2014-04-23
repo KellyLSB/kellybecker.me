@@ -1,0 +1,34 @@
+body {
+  background: #c3c3c3 url(../img/kellybecker_small_edited.jpg) no-repeat top -200px left -150px;
+  @include background-size(60%);
+
+  & > .page-section {
+    & > .row {
+      & > .columns {
+        & > .panel {
+          @include box-shadow(
+            rgba(#CCC, 0.2) 0px 0px 0 2px
+          );
+
+          @include text-shadow(
+            rgba(#CCC, 0.6) 2px 2px 0
+          );
+
+          .panel {
+            @include box-shadow(
+              rgba(#CCC, 0.2) 0px 0px 0 2px inset
+            );
+          }
+        }
+
+        .panel {
+          h3 {
+            border-bottom: dashed 1px #CCC;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+}

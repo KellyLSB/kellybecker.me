@@ -1,0 +1,80 @@
+/*Known Technologies*/
+
+.skill-cloud {
+  margin: inherit -5px;
+  text-align: justify;
+  align-items: flex-start;
+
+  span {
+    padding: 0px 5px;
+
+    @extend .ubuntu.light;
+    white-space: nowrap;
+    line-height: 30px;
+
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+
+    &.rank-0,
+    &.rank-00 {
+      @extend .ubuntu.light;
+      font-size: 0.78em;
+      color: red;
+    }
+
+    &.rank-25 {
+      @extend .ubuntu.light;
+      font-size: 0.95em;
+      color: grey;
+    }
+
+    &.rank-50 {
+      @extend .ubuntu.normal;
+    }
+
+    &.rank-75 {
+      @extend .ubuntu.medium;
+      font-size: 1em;
+      color: blue;
+    }
+
+    &.rank-99 {
+      @extend .ubuntu.bold;
+      font-size: 1.2em;
+      color: violet;
+    }
+
+    @media print {
+      &.rank-0,
+      &.rank-00 {
+        @extend .ubuntu.light;
+        font-size: 0.78em;
+        color: red !important;
+      }
+
+      &.rank-25 {
+        @extend .ubuntu.light;
+        font-size: 0.95em;
+        color: grey !important;
+      }
+
+      &.rank-50 {
+        @extend .ubuntu.normal;
+      }
+
+      &.rank-75 {
+        @extend .ubuntu.medium;
+        font-size: 1em;
+        color: blue !important;
+      }
+
+      &.rank-99 {
+        @extend .ubuntu.bold;
+        font-size: 1.2em;
+        color: violet !important;
+      }
+    }
+  }
+}
