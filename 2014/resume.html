@@ -305,6 +305,25 @@
                 </div>
               </li>
               <li>
+                <a name="work_exp_rainforest_qa"></a>
+                <div class="panel right-box technology cloud">
+                  <h4 class="heading">Technologies</h4>
+                  <span class="used-0">Ruby</span>
+                  <span class="used-0">Ruby on Rails</span>
+                  <span class="used-0">Heroku</span>
+                  <span class="used-0">Circle CI</span>
+                  <span class="used-0">Heroku</span>
+                  <span class="used-0">Javascript</span>
+                  <span class="used-0">Node.JS</span>
+                  <span class="used-0">Backbone.JS</span>
+                  <span class="used-0">Grape API</span>
+                  <span class="used-0">Sinatra</span>
+                  <span class="used-0">Vagrant</span>
+                  <span class="used-0">Virtual Box</span>
+                  <span class="used-0">Digital Ocean</span>
+                  <span class="used-0">Azure</span>
+                  <span class="used-0">Heroku</span>
+                </div>
                 <h4>Rainforest QA</h4>
                 <div class="aka">
                   <span class="heading">A.K.A.</span>
@@ -321,6 +340,13 @@
                 <div class="timeframe">
                   <span class="heading">Duration</span>
                   <span>August 2013 - September 2013</span>
+                </div>
+                <div class="description paragraphs">
+                  <span class="heading">Details</span>
+                  <p>Rainforest QA was an amazing opportunity. My only regret is that is was so short lived. It was a small 4 person company in SoMA. We were working to better user testing and browser testing and eventually automate it.</p>
+                  <p>While I was there I spent pretty much all my time cleaning up technical debt. My first week was going through every Rspec test and ensuring they passed and switching from fixtures to factories; this was a challenge as this was actually my first proper introduction to unit tests. The second week was doing th same on front end jasmine tests, including writing a factory library for Node.JS and Javascript, called <a href="http://github.com/KellyLSB/Industry">Industry</a>: factories targeted for use with Backbone.JS.</p>
+                  <p>Later I worked with Russel, the CTO, to architect a cascading virtual machine cluster with Virtual Box and Vagrant to create IE-VMS that we could use to ensure the accuracy and authenticity of the tests returned by our Amazon Mechanical Turk users. This process involved testing the installation on close to 10 cloud providers. Long story short, it was not worth trying to do on an already virtualized machine and in the end, though it was more expensive, we used on-demand Softlayer bare metal.</p>
+                  <p>In order to monitor and recycle containers I wrote a Grape API on top of Sinatra to be a communication handle with our Platform as well as implemented webhook functionality to poke our platform as the machines changed states or events were fired. In order to provide monitoring of the user's actions I wrote a plugin called vagrant-camera which took a screenshot every time a user made an interaction with the virtual machine. The plugin would then fire a webhook back to our platform sending the image as a base64 jpeg.</p>
                 </div>
               </li>
               <li>
