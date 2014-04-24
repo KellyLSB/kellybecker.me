@@ -72,12 +72,14 @@ $small-only: "#{$screen}, print and (max-width: #{upper-bound($small-range)})";
     @extend .ubuntu.medium.italic;
     border: none !important;
 
-    &:before {
-      content: "\201C"
-    }
+    & > .quote {
+      &:first-of-type {
+        content: "\201C"
+      }
 
-    &:after {
-      content: "\201D"
+      &:last-of-type {
+        content: "\201D"
+      }
     }
   }
 
