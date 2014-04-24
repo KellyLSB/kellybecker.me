@@ -308,21 +308,25 @@
                 <a name="work_exp_rainforest_qa"></a>
                 <div class="panel right-box technology cloud">
                   <h4 class="heading">Technologies</h4>
-                  <span class="used-0">Ruby</span>
-                  <span class="used-0">Ruby on Rails</span>
-                  <span class="used-0">Heroku</span>
-                  <span class="used-0">Circle CI</span>
-                  <span class="used-0">Heroku</span>
-                  <span class="used-0">Javascript</span>
-                  <span class="used-0">Node.JS</span>
-                  <span class="used-0">Backbone.JS</span>
-                  <span class="used-0">Grape API</span>
-                  <span class="used-0">Sinatra</span>
-                  <span class="used-0">Vagrant</span>
-                  <span class="used-0">Virtual Box</span>
-                  <span class="used-0">Digital Ocean</span>
-                  <span class="used-0">Azure</span>
-                  <span class="used-0">Heroku</span>
+                  <span class="used-4">Ruby</span>
+                  <span class="used-4">Ruby on Rails</span>
+                  <span class="used-3">Heroku</span>
+                  <span class="used-4">Circle CI</span>
+                  <span class="used-4">Javascript</span>
+                  <span class="used-2">Node.JS</span>
+                  <span class="used-2">Backbone.JS</span>
+                  <span class="used-4">Grape API</span>
+                  <span class="used-4">Sinatra</span>
+                  <span class="used-4">Vagrant</span>
+                  <span class="used-4">Virtual Box</span>
+                  <span class="used-4">Digital Ocean</span>
+                  <span class="used-4">Azure</span>
+                  <span class="used-4">Softlayer</span>
+                  <span class="used-3">Jasmine</span>
+                  <span class="used-3">Rspec</span>
+                  <span class="used-2">Amazon S3</span>
+                  <span class="used-2">Amazon Mechanical Turk</span>
+                  <span class="used-3">Postgres</span>
                 </div>
                 <h4>Rainforest QA</h4>
                 <div class="aka">
@@ -350,6 +354,37 @@
                 </div>
               </li>
               <li>
+                <a name="work_exp_triggit"></a>
+                <div class="panel right-box technology cloud">
+                  <h4>Technologies</h4>
+                  <span class="used-4">Ruby</span>
+                  <span class="used-2">Ruby on Rails</span>
+                  <span class="used-4">IRC</span>
+                  <span class="used-0">Clojure</span>
+                  <span class="used-0">C</span>
+                  <span class="used-2">Hadoop</span>
+                  <span class="used-3">Hive</span>
+                  <span class="used-1">Cassandra</span>
+                  <span class="used-4">Postgres</span>
+                  <span class="used-2">MySQL</span>
+                  <span class="used-4">Redis</span>
+                  <span class="used-3">Amazon S3</span>
+                  <span class="used-4">Datapipe Metal</span>
+                  <span class="used-2">Datapipe Cloud</span>
+                  <span class="used-4">Bash / SH</span>
+                  <span class="used-4">Genders DB</span>
+                  <span class="used-4">Puppet</span>
+                  <span class="used-4">Ruby / Net-SSH</span>
+                  <span class="used-3">GPG</span>
+                  <span class="used-2">Nginx</span>
+                  <span class="used-1">Apache</span>
+                  <span class="used-0">Go-Lang</span>
+                  <span class="used-4">HAproxy</span>
+                  <span class="used-2">HTML</span>
+                  <span class="used-2">CSS</span>
+                  <span class="used-3">Javascript</span>
+                  <span class="used-2">Coffeescript</span>
+                </div>
                 <h4>Triggit Inc</h4>
                 <div class="location">
                   <span class="heading">Location</span>
@@ -363,6 +398,18 @@
                   <span class="heading">Duration</span>
                   <span>January 2013 - July 2013</span>
                 </div>
+                <div class="description paragraphs">
+                  <span class="heading">Details</span>
+                  <p>Triggit was my first DIY shop. They were all about not telling you what to do and just having you jump in the deep end, often without teaching you to swim. I actually realized an issue that became really apparent after the next technical hire after me; they never actually gave me "training" or even documents showing their stack. I actually had to explore and figure it all out myself. Considering this and the complexity of the Triggit stack I think I did a really good job of that.</p>
+                  <p>I was hired to be a technical liason between the customer support team and the rails self-service platform. After hiring me they actually seemed confused on what I would do, so I did a couple Ruby tickets, then got bored. After asking what I was supposed to be doing a couple times I got put to work optimizing and updating Hive queries for the reporting exports as well as running manual reports or even sraping the documents directly from Hadoop.</p>
+                  <p>Evntually I needed a break from the menial tasks. I went to Ryan (CTO) and asked him if there was something else I could work on to un-burn myself out. He said he could not think of anything, but if I found anything or thought of anything that I should let him know. The next day in the morning roundtable Ben, our operations guy, mentioned he was extrmely backlogged. I offered to help; this was my official introduction to Dev Ops.</p>
+                  <p>He showed me the tools and scripts he was using and I could not make head or tails of them; they were all aliased with short acronyms. I think his puppet run scripts were `upr` or something like that. Many were shorter and ran operations on multiple machines and were potentially dangerous with no organization or documentation. I quickly understood why he was backlogged. The first thing that I noticed was our puppet manifests; I had some small experience with puppet before, but nothing major and even I knew that this was horrendous. There were 250 server declarations and every single type in use were all declared in the same file. To add insult to injury the entire file had mixed indentions and appeared to be minified. There was a lot of work to do.</p>
+                  <p>I sat down with Ben and determined that he was a classic system administrator and he started having trouble managing the server stack after about 50 servers and was to prideful to ask for help. I don't say this to say he was an arrogant man, most of the time, but rather to emphasize the challenge that was at hand. My first week helping him I had a goal; properly indent and organize his puppet manifests, changing nothing. I ran it by him and Ryan and very quickly was given the approval, so I got to work. The process took about two days with me working on it from about 10 - 8 every day. After eventually merging it in piece by piece (due to heavy peer review; though nothing changed, puppet noop showed that) we were ready to roll.</p>
+                  <p>The next steps were to remove the duplicate puppet classes and fix the dependency ordering as well as start using community puppet modules in place of some of our not-as-well written or documented custom classes. This process took about two months and then little bits here and there, and that process was still going on after I left.</p>
+                  <p>We also had to tackle how Puppet was running; Ben insisted on using a master-slave configuration that ran only on demand. To work with this stipulation and the delays it caused when trying to update all 250 servers at once I had to get creative. I wrote an early version of what is now my <a href="http://github.com/KellyLSB/cli_tool">cli_tool</a> project, though the original at Triggit had much more features. The app was in ruby and handled booting up the puppet masters in the given data centers for the server tags we were running puppet on. Once the masters were started it would then boot up each slave server individually, run a noop, dump the changes to a markdown file and stdout, then ask if it should continue. It had a force yes option on the CLI as well, but it was rarely used due to stability issues. This tool allowed up to move from undocumented aliases to an application that ran on the developer's machine instead of server side and had an api like so `puppet-tool run dc newyork` which would run all the puppet clients in the newyork data center. The tool even would dump a log of each transaction into the current working directory where the log was run, broken up by the server hostname and the date. The goal was full transparency.</p>
+                  <p>Along with all this I wrote a backup daemon. This daemon would listen for incoming connections from a FIFO on it's host, then would run the selected library and name, backing up whatever the library was meant to backup. The whole application had a standardized API and I wrote libraries for MySQL, Postgres, Redis, Cassandra and our configuration files. The server would then process the data as requested by the library and then the library was expected to return a single file. This file would be bziped with libbzip2 (if not already compressed) and then would gpg encrypt the file and upload it to s3 or output it to a specified directory. The daemon also had hooks for the CLI tool I wrote that would download and decrypt the latest (or latest to a date provided) backup of any of the backup types and either A restore it or B download it to your dev machine and optionally import it locally.</p>
+                  <p>While I was employed we had a lot of issues with the network in the office, mostly due to the router dying and all the engineers being on wireless. There were also concerns that we should not have our guests on the network, because of direct VPN connections to our data centers. In order to help with this issue I set up a new network by running new cables to the engineers as well as building and installing a new router capable of easily constraining machines to specific subnets as well as traffic controlling. To build this network I got us a proper UPS to ensure that all our critical communications hardware would be sufficient as well as a <a href="http://soekris.com/products/net5501.html">Soekris net5501</a> which I installed <a href="https://www.pfsense.org">pfSense</a> on. This new router was setup to support roaming wifi as well as adding a guest network that was seperate from the rest of the network, ensuring security of our servers, local hardware and development machines.<p>
+                  <p>I also was fairly active with company extracuricular events and was a party member of the wednesday night Dungeons and Dragons group (I was the tank). I put all my points into Dex and Strength with near zero intelligence. The party always sent me in first to absorb damage, but my character was known to scream "it's dark in here, I can't see anything!" This, of course, alerted all the monsters in the dungeon. Haha, good times!</p>
               </li>
               <li>
                 <h4>Tioki</h4>
