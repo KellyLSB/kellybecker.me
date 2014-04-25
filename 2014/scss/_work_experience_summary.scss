@@ -1,18 +1,16 @@
 .work-experience ol {
   list-style-type: none;
   margin-left: 0px;
-  margin-top: 50px;
+  margin-top: -15px;
 
   li {
-    margin-top: 25px;
-    padding-top: 15px;
     margin-top: 15px;
+    padding-top: 15px;
     position: relative;
     clear:both;
 
     &:first-child {
       border-top: 0px;
-      padding-top: 0px;
     }
 
     &.low.priority {
@@ -24,6 +22,7 @@
       border-bottom: solid 1px #BBB;
       margin-bottom: 25px;
       line-height: 13px;
+      margin-top: 52px;
       display: block;
 
       span.year {
@@ -49,8 +48,8 @@
 
       &.panel.right-box {
         background: #FFF !important;
-        margin-left: 25px;
-        margin-top: -22px;
+        margin-left: 45px;
+        margin-top: 10px;
         width: 45%;
 
         h4 {

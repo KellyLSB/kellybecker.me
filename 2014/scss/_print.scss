@@ -64,9 +64,14 @@ $small-only: "#{$screen}, print and (max-width: #{upper-bound($small-range)})";
 
       .panel {
         border: solid 1px #CCC !important;
+        page-break-before: avoid;
+        page-break-inside: avoid;
+        page-break-after: avoid;
       }
     }
   }
+
+  // Quote Styling for Print
 
   blockquote {
     @extend .ubuntu.medium.italic;
@@ -83,7 +88,31 @@ $small-only: "#{$screen}, print and (max-width: #{upper-bound($small-range)})";
     }
   }
 
-  .page-section.print-break-after {
-    page-break-after: always !important;
+  // Page Break After
+
+  .page-section {
+    page-break-before: auto !important;
+    page-break-inside: auto !important;
+    page-break-after: auto !important;
+
+    &.page-break-before {
+      page-break-before: always !important;
+    }
+
+    &.avoid-internal-page-break {
+      page-break-inside: avoid !important;
+    }
+
+    &.page-break-after {
+      page-break-after: always !important;
+    }
+  }
+
+  .work-experience > ol > li {
+    @extend .page-section.avoid-internal-page-break;
+  }
+
+  .skill-cloud {
+    @extend .page-section.avoid-internal-page-break;
   }
 }

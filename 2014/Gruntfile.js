@@ -5,8 +5,8 @@ module.exports = function(grunt) {
     compass: {
       options: {
         importPath: ['bower_components/foundation/scss'],
-        //outputStyle: 'expanded'
-        outputStyle: 'compressed'
+        outputStyle: 'expanded'
+        //outputStyle: 'compressed'
       },                 // Task
       dist: {                   // Target
         options: {
@@ -25,11 +25,11 @@ module.exports = function(grunt) {
         mangle: {
           except: ['jQuery', 'Backbone']
         },
-        // beautify: {
-        //   width: 80,
-        //   beautify: true
-        // }
-        beautify: false
+        beautify: {
+          width: 80,
+          beautify: true
+        }
+        //beautify: false
       },
       dist: {
         files: {
