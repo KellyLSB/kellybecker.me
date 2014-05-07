@@ -1,0 +1,158 @@
+.page-section.experience ul,
+.page-section.experience ol {
+
+  // Element Style
+  list-style-type: none;
+  margin-left: 0px;
+  margin-top: -15px;
+
+
+  // Child Elements
+  & > li {
+
+    // Element Style
+    margin-top: 15px;
+    padding-top: 15px;
+    position: relative;
+    clear:both;
+
+
+    // Print Style
+    @media print {
+      @extend .page-section.avoid-internal-page-break;
+    }
+
+
+    // Alternate Style
+    &.low.priority {
+      // Element Styles
+      display: none;
+    }
+
+
+    // Child Elements
+    &:first-child {
+
+      // Element Style
+      border-top: 0px;
+    }
+
+
+    h4 {
+
+      // Element Style
+      @extend .ubuntu.light;
+      display: block;
+      border-bottom: solid 1px #BBB;
+      margin-bottom: 25px;
+      line-height: 13px;
+
+
+      // Alternate Style
+      &.panel-on-right {
+        margin-top: 52px;
+      }
+
+
+      // Child Elements
+      .year {
+
+        // Element Style
+        @extend .ubuntu.normal;
+        float: right;
+      }
+    }
+
+
+    .info {
+
+      // Element Style
+      margin: 10px inherit;
+      text-align: right;
+      display: block;
+
+
+      // Alternate Style
+      &.panel.float-right,
+      &.technologies,
+      &.cloud {
+        @extend .cloud;
+
+        // Element Style
+        margin-left: 45px !important;
+        margin-top: 10px;
+        width: 45% !important;
+
+
+        // Child Elements
+        h4 {
+          border-bottom: dashed 1px #CCC;
+          text-align: right;
+        }
+      }
+
+
+      &.text,
+      &.quote,
+      &.details,
+      &.summary,
+      &.paragraphs,
+      &.references {
+
+        // Element Style
+        text-align: left;
+
+
+        // Child Elements
+        span.heading,
+        a.heading {
+          border-top: dashed 1px #DDD;
+          padding-top: 10px;
+          margin-bottom: 10px;
+          float: none;
+        }
+
+
+        ul, ol {
+          margin: 3px 0px 15px 20px;
+          display: inline-block;
+
+          li {
+            border: none;
+            padding: 0px;
+
+            &:first-child {
+              margin: 0px;
+            }
+          }
+        }
+
+
+        ul { list-style-type: circle; }
+        ol { list-style-type: decimal; }
+      }
+
+
+      // &.cloud,
+      // &.technology {
+      //   @extend.cloud.technology
+      // }
+
+
+      // Child Elements
+      span, a {
+
+        // Element Style
+        display: block;
+
+
+        // Alternate Style
+        &.heading {
+          @extend .ubuntu.medium;
+          margin-right: 10px;
+          float: left;
+        }
+      }
+    }
+  }
+}

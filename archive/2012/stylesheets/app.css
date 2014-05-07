@@ -1,0 +1,175 @@
+@import url("http://fonts.googleapis.com/css?family=Exo:100,400");
+/**
+ * Elements.less
+ */
+/*---------------------------------------------------
+    LESS Elements 0.6
+  ---------------------------------------------------
+    A set of useful LESS mixins by Dmitry Fadeyev
+    Special thanks for mixin suggestions to:
+      Kris Van Herzeele,
+      Benoit Adam,
+      Portenart Emile-Victor,
+      Ryan Faerman
+
+    More info at: http://lesselements.com
+-----------------------------------------------------*/
+/**
+ * Google WebFonts
+ */
+/**
+ * Color Variables
+ */
+/**
+ * Overall Functions
+ */
+/**
+ * Overall Classes
+ */
+body {
+  background: #c3c3c3;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #e3e3e3), color-stop(1, #a3a3a3));
+  background: -ms-linear-gradient(bottom, #e3e3e3, #a3a3a3);
+  background: -moz-linear-gradient(center bottom, #e3e3e3 0%, #a3a3a3 100%);
+}
+a {
+  color: #6939a7;
+}
+a:hover {
+  color: #4e366d;
+  text-decoration: underline;
+}
+a.button {
+  background: #6939a7;
+  margin: 10px auto;
+}
+a.button:hover {
+  background: #4e366d;
+}
+/**
+ * Page Design
+ */div.site-header {
+  margin: 40px auto;
+}
+div.site-header div.title h1 {
+  text-shadow: 0px 0px 2em #4e366d;
+  font-family: "Exo";
+  font-size: 50px;
+  color: #333333;
+  margin: 0;
+}
+div.site-header div.title h2 {
+  text-shadow: 0px 0px 2em #333333;
+  font-family: "Helvetica Neue", Helvetica, Arial, serif;
+  font-size: 25px;
+  color: #4e366d;
+  margin: 0;
+}
+div.site-header div.title h3 {
+  text-shadow: 0px 0px 2em #333333;
+  font-family: "Helvetica Neue", Helvetica, Arial, serif;
+  font-size: 16px;
+  margin: 0;
+}
+div.site-header div.title h3,
+div.site-header div.title h3 * {
+  color: #4e366d;
+}
+div.site-header div.title h3 a:hover {
+  text-decoration: underline;
+}
+div.site-header div.title p {
+  color: #333333;
+  margin: 35px auto;
+}
+div.site-header div.title a.button {
+  width: 90px;
+}
+div.site-header div.github {
+  text-align: center;
+  position: relative;
+}
+div.site-header div.github div.text {
+  font-family: "Exo";
+  position: absolute;
+  font-size: 18px;
+  display: none;
+  top: -5px;
+  right: 0;
+  left: 0;
+}
+div.site-header div.github img {
+  margin-top: 10px;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+div.site-header div.github:hover div.text {
+  display: block;
+}
+div.site-header div.github:hover img {
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  -webkit-opacity: 0.7;
+  opacity: 0.7;
+}
+#projects,
+#portfolio,
+#evolutionsdk {
+  background: #FFF;
+  display: none;
+  padding: 50px;
+  width: 980px;
+  height: 50%;
+}
+#projects a.close,
+#portfolio a.close,
+#evolutionsdk a.close {
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: #e3e3e3;
+  right: 10px;
+  top: 10px;
+}
+#projects a.close:hover,
+#portfolio a.close:hover,
+#evolutionsdk a.close:hover {
+  text-decoration: none;
+  color: #6939a7;
+}
+#projects div,
+#portfolio div,
+#evolutionsdk div {
+  overflow: scroll;
+  height: 100%;
+}
+#projects div h1,
+#portfolio div h1,
+#evolutionsdk div h1 {
+  margin: 0px auto 40px;
+  font-weight: 100;
+}
+#projects div ul.projects-list li,
+#portfolio div ul.projects-list li,
+#evolutionsdk div ul.projects-list li,
+#projects div ul.portfolio-list li,
+#portfolio div ul.portfolio-list li,
+#evolutionsdk div ul.portfolio-list li {
+  display: block;
+}
+#projects div ul.projects-list li a,
+#portfolio div ul.projects-list li a,
+#evolutionsdk div ul.projects-list li a,
+#projects div ul.portfolio-list li a,
+#portfolio div ul.portfolio-list li a,
+#evolutionsdk div ul.portfolio-list li a {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+}
+div.main-content {
+  color: #333333;
+}

@@ -1,13 +1,14 @@
-/* humanstxt.org */
+/* TEAM */
+	Kelly Becker
+	Contact: kbecker@kellybecker.me
+	Twitter: @KellyLSB
+	From: Daly City, California
 
 /* SITE */
-	Last Update: 2012/06/01
-	Standards: HTML5, CSS3
-	Components: Foundation, Modernizr, jQuery, kModal
-	Software: Coda 2
-  
-/* TEAM */
-	Your title: Kelly becker
-	Site: http://kellybecker.me
-	Twitter: @KellyLSB
-	Location: Colorado Springs, CO
+	Last update:2014/05/07
+	Language: English
+	Doctype:HTML5
+	IDE: Atom.IO
+  Framework: Zurb Foundation
+  SCSS Compiler: Compass
+  Background Photo by Julia Wolf.

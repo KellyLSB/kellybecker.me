@@ -1,0 +1,30 @@
+// Load in Font and Foundation Settings
+@import
+  "includes/layout/normalize",
+  "includes/layout/ubuntu",
+  "includes/foundation/settings",
+  "includes/foundation/print";
+
+// Include Compass and Foundation
+@import
+  "compass",
+  "foundation";
+
+// Load Additional Foundation Components
+@import "includes/foundation/components";
+
+// Site Style
+@import
+  "includes/layout/global",
+  "includes/layout/header",
+  "includes/layout/sections_and_panels",
+  "includes/layout/table_of_contents",
+  "includes/layout/blockquote",
+  "includes/layout/footer";
+
+// Splash Style
+@import "includes/splash/_buttons.scss";
+
+// Resume Style
+@import "includes/resume/experience";
+@import "includes/resume/technology_cloud";

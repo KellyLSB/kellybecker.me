@@ -1,0 +1,204 @@
+// Page Header Style
+.page-header {
+
+  // Element Style
+  margin: 25px auto;
+  display: block;
+
+  @include text-shadow(
+    rgba(#CCC, 0.6) 2px 2px 0
+  );
+
+
+  // Print Styles
+  @media print {
+
+    // Element Style
+    margin: 0px auto;
+  }
+
+
+  // Child Elements
+  .kelly-name-title {
+
+    // Element Style
+    &, & > h1, & > h5 {
+      @extend .ubuntu.light;
+    }
+  }
+}
+
+
+// Splash Header
+.page-header.splash {
+
+  // Element Style
+  margin: 50px auto;
+
+
+  // Child Elements
+  img.kelly-square {
+
+    // Element Style
+    border: solid 1px #EEE;
+    padding: 0px 0px;
+
+    @include border-radius(10%, 10%);
+
+    @include box-shadow(
+      rgba(black, 0.2) 0px 0px 0 2px,
+      rgba(violet, 0.4) 0px 0px 0 4px,
+      rgba(black, 0.05) 0px 0px 0 6px
+    );
+  }
+
+
+  .kelly-name-title {
+
+    // Element Style
+    padding-left: 30px;
+
+
+    // Child Elements
+    & > h1 {
+      line-height: 4rem;
+      font-size: 3.5rem;
+    }
+
+
+    & > h5 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+
+// Social Header
+.page-header.social {
+
+  // Element Style
+
+
+  // Child Elements
+  .collapse { padding: 0px; }
+
+
+  .kelly-photo > img {
+
+    // Element Style
+    border: solid 1px #EEE;
+
+    @include box-shadow(
+      rgba(#CCC, 0.5) 0px 0px 0 2px
+    );
+  }
+
+
+  .kelly-name-title {
+
+    // Element Style
+
+
+    // Print Styles
+    @media print {
+
+      // Element Style
+
+
+      // Child Elements
+      & > h1 {
+
+        // Element Style
+        font-size: 1.8rem;
+        line-height: 3.1rem;
+      }
+
+
+      & > h5 {
+
+        // Element Style
+        font-size: 0.81rem;
+      }
+    }
+
+
+    // Child Elements
+    & > h1 {
+
+      // Element Style
+      margin: 0px auto 13px;
+      line-height: 3.75rem;
+      font-size: 2.2rem;
+    }
+
+
+    & > h5 {
+
+      // Element Style
+      margin: 0px;
+      font-size: 0.968rem;
+    }
+  }
+
+  .kelly-networking {
+
+    // Element Style
+    padding-top: 2px;
+
+
+    // Child Elements
+    & > .info {
+
+      // Element Style
+      border-bottom: dashed 1px #EEE;
+      padding: 2px 3px;
+
+      @include grid-row($behavior: nest-collapse);
+
+
+      // Child Elements
+      &:first-child {
+
+        // Element Style
+        padding-top: 0px;
+      }
+
+
+      &:last-child {
+
+        // Element Style
+        border: none;
+        padding-bottom: 0px;
+      }
+
+
+      & > * {
+
+        // Element Style
+        font-size: 0.7rem;
+      }
+
+
+      & > .name {
+
+        // Element Style
+        @extend .ubuntu.medium;
+        padding-right: 4px;
+        padding-left: 0px;
+        text-align: right;
+
+        @include grid-column(3);
+      }
+
+
+      & > .value {
+
+        // Element Style
+        @extend .ubuntu.light;
+        text-align: left;
+
+        @include grid-column(9);
+      }
+    }
+  }
+}

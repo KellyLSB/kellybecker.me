@@ -1,0 +1,11 @@
+.page-footer {
+
+  // Element Style
+  @extend .ubuntu.light;
+  margin: 25px auto;
+  display: block;
+
+  @include text-shadow(
+    rgba(#CCC, 0.6) 2px 2px 0
+  );
+}

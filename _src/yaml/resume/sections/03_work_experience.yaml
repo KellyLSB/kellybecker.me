@@ -1,0 +1,6 @@
+---
+  class: experience
+  title:
+    full: Work Experience
+    summarized: Job Summary
+  list: include ../jobs/*.yaml

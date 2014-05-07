@@ -1,0 +1,91 @@
+// Page Section Panel
+.page-section > .row > .columns > .panel {
+
+  // Element Style
+  @include box-shadow(
+    rgba(#CCC, 0.2) 0px 0px 0 2px
+  );
+
+  @include text-shadow(
+    rgba(#CCC, 0.6) 2px 2px 0
+  );
+
+
+  // Child Elements
+  .panel {
+
+    // Element Style
+    background: #FFF !important;
+
+    @include box-shadow(
+      rgba(#CCC, 0.2) 0px 0px 0 2px inset
+    );
+
+
+    // Alternante Style
+    &.float-right {
+      margin-left: 1.5em;
+      font-size: 0.70em;
+      float: right;
+      width: 40%;
+    }
+
+
+    // Print Style
+    @media print {
+      background: #FFF !important;
+    }
+  }
+}
+
+
+// Generic Panel Style
+.panel {
+
+  // Element Style
+
+
+  // Print Style
+  @media print {
+    &.print-no-border {
+      border: none !important;
+
+      .panel {
+        border: solid 1px #CCC !important;
+        page-break-before: avoid;
+        page-break-inside: avoid;
+        page-break-after: avoid;
+      }
+    }
+  }
+
+
+  // Child Elements
+  h3 {
+    border-bottom: dashed 1px #CCC;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+
+// Print Style
+@media print {
+  .page-section {
+    page-break-before: auto !important;
+    page-break-inside: auto !important;
+    page-break-after: auto !important;
+
+    &.page-break-before {
+      page-break-before: always !important;
+    }
+
+    &.avoid-internal-page-break {
+      page-break-inside: avoid !important;
+    }
+
+    &.page-break-after {
+      page-break-after: always !important;
+    }
+  }
+}

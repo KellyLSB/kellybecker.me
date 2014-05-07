@@ -1,0 +1,44 @@
+doctype html
+html.no-js(lang='en')
+
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+    //- Site Title
+    title
+      | Kelly Becker-Neuding ::
+      block pageTitle
+        | Unicorn Wrangler
+
+    //- Load Compiled CSS From Compass and Foundation
+    link(rel='stylesheet', href=assetPath + '/css/app.css')
+    block pageStyle
+
+  //- Default to the Splash Style
+  body
+
+    //- Use the Splash Header in Splash Space
+    block pageHeader
+      include header_splash
+
+    //- Output the Page Content or generic information
+    block pageContent
+      section.page-section
+        .row
+          .small-12.columns
+            h3 OH NO!
+            p There was no page content created for this page. My bad.
+
+    //- Footer Text
+    block pageFooter
+      section.page-footer
+        .row
+          .small-8.columns.text-left
+            | Copyright &#169; 2014 Kelly Lauren-Summer Becker-Neuding.
+          .small-4.columns.text-right
+            | kbecker@kellybecker.me
+
+    //- Page Javascript
+    script(src=assetPath + '/js/app.js')
+    block pageJs

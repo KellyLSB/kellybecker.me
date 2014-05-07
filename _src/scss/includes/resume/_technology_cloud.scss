@@ -1,0 +1,81 @@
+.cloud,
+.technologies {
+
+  // Element Style
+  margin: 10px -5px;
+  text-align: justify;
+  align-items: flex-start;
+
+
+  // Print Style
+  @media print {
+    @extend .page-section.avoid-internal-page-break;
+  }
+
+
+  // Child Elements
+  span, a {
+
+    // Element Style
+    display: block;
+    padding: 0px 5px;
+
+
+    // Alternate Style
+    &.heading {
+
+      // Element Style
+      @extend .ubuntu.medium;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      text-align: left;
+      float: none;
+    }
+
+
+    &:not(.heading) {
+
+      // Element Style
+      @extend .ubuntu.light;
+      white-space: nowrap;
+      line-height: 30px;
+
+
+      // Remove Justification
+      vertical-align: top;
+      display: inline-block;
+      *display: inline;
+      zoom: 1;
+
+
+      // Alternate Style
+      &.used-0 {
+        @extend .ubuntu.light;
+        font-size: 0.78em;
+        color: red;
+      }
+
+      &.used-1 {
+        @extend .ubuntu.light;
+        font-size: 0.95em;
+        color: grey;
+      }
+
+      &.used-2 {
+        @extend .ubuntu.normal;
+      }
+
+      &.used-3 {
+        @extend .ubuntu.medium;
+        font-size: 1em;
+        color: blue;
+      }
+
+      &.owned, &.used-4 {
+        @extend .ubuntu.bold;
+        font-size: 1.2em;
+        color: violet;
+      }
+    }
+  }
+}

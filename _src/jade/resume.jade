@@ -1,0 +1,26 @@
+//- Include Layout Template
+extend includes/layout
+
+//- Include Mixins
+include includes/mixins/*
+
+block pageTitle
+  | Software Engineer
+
+
+block pageHeader
+  include includes/header_social.jade
+
+
+block pageContent
+  each section in pageData.sections
+    +page-section(section.title)(class=section.class)
+      h3= section.title
+
+      //- Section List
+      if section['list']
+        +section-list(section.list)
+
+      //- Render Body as Markdown
+      if section['body']
+        != section.body.markdown()

@@ -1,26 +1,29 @@
-# KellyBecker.me
+# Foundation libsass template
 
-# Helpful Stuff
+This is a template to start your own project that uses Grunt and libsass!
 
-## Ubuntu Server Display Out of Range
+## Requirements
 
-http://ubuntuforums.org/showthread.php?t=1751950&p=10868071#post10868071
+You'll need to have the following items installed before continuing.
 
-## Ansi Color Code Regex
+  * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
+  * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
+  * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
 
-`\x1b\[[0-9]*(;[0-9]*|)m`
+## Quickstart
 
-## Github oAuth Deploy Keys
-
-You can always generate an oAuth token with
-
-```sh
-$ curl -u 'username' -d '{"scopes":["repo"],"note":"Help example"}' \
-    https://api.github.com/authorizations
+```bash
+git clone git@github.com:zurb/foundation-libsass-template.git
+npm install && bower install
 ```
 
-as documented on https://help.github.com/articles/creating-an-oauth-token-for-command-line-use then pull with
+While you're working on your project, run:
 
-```sh
-$ git clone https://<key>:x-oauth-basic@github.com/<user>/<repo>
-```
+`grunt`
+
+And you're set!
+
+## Directory Structure
+
+  * `scss/_settings.scss`: Foundation configuration settings go in here
+  * `scss/app.scss`: Application styles go here

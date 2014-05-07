@@ -1,0 +1,6 @@
+mixin page-section(title)
+  section.page-section(class=title.anchorname())&attributes(attributes)
+    a(name=title.anchorname('page-section'))
+    .row: .small-12.columns
+      .panel.print-no-border
+        block

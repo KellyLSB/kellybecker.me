@@ -1,0 +1,20 @@
+.page-section.buttons {
+
+  // Element Style
+
+
+  // Child Elements
+  & > .row {
+
+    // Element Style
+
+
+    // Child Elements
+    & > a.button {
+
+      // Element Style
+      margin: 0px auto;
+      border: solid 1px white;
+    }
+  }
+}

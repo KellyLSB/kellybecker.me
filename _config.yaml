@@ -1,0 +1,5 @@
+---
+  vendor:
+    path: '_src/vendor'
+    foundation:
+      path: '_src/vendor/foundation'

@@ -1,0 +1,21 @@
+@media print {
+  blockquote {
+
+    // Element Style
+    font-weight: 500;
+    font-style: italic;
+    border: none !important;
+
+
+    // Child Elements
+    & > .quote {
+      &:first-of-type {
+        content: "\201C"
+      }
+
+      &:last-of-type {
+        content: "\201D"
+      }
+    }
+  }
+}
