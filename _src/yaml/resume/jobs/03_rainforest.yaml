@@ -1,0 +1,51 @@
+---
+  type: Work Experience
+  title: Rainforest QA
+  duration:
+    year: '2013'
+
+  panel:
+    type: cloud
+    title: Technologies
+    cloud:
+      Ruby: used-4
+      Ruby on Rails: used-4
+      Heroku: used-3
+      Circle CI: used-4
+      Javascript: used-4
+      Node.JS: used-2
+      Backbone.JS: used-2
+      Grape API: used-4
+      Sinatra: used-4
+      Vagrant: used-4
+      Virtual Box: used-4
+      Digital Ocean: used-4
+      Azure: used-4
+      Softlayer: used-4
+      Jasmine: used-3
+      Rspec: used-3
+      Amazon S3: used-2
+      Amazon Mechanical Turk: used-2
+      Postgres: used-3
+
+  info:
+    aka:
+      title: A.K.A.
+      value: Cldrdr, Inc
+
+    Location: SoMa, San Francisco, CA
+    Title: Title Agnostic
+    Duration: August 2013 - Sept 2013
+
+    Details:
+      body:
+        full: |
+          Rainforest QA was an amazing opportunity. My only regret is that is was so short lived. It was a small 4 person company in SoMA. We were working to better user testing and browser testing and eventually automate it.
+
+          While I was there I spent pretty much all my time cleaning up technical debt. My first week was going through every Rspec test and ensuring they passed and switching from fixtures to factories; this was a challenge as this was actually my first proper introduction to unit tests. The second week was doing th same on front end jasmine tests, including writing a factory library for Node.JS and Javascript, called [Industry](http://github.com/KellyLSB/Industry): factories targeted for use with Backbone.JS.
+
+          Later I worked with Russel, the CTO, to architect a cascading virtual machine cluster with Virtual Box and Vagrant to create IE-VMS that we could use to ensure the accuracy and authenticity of the tests returned by our Amazon Mechanical Turk users. This process involved testing the installation on close to 10 cloud providers. Long story short, it was not worth trying to do on an already virtualized machine and in the end, though it was more expensive, we used on-demand Softlayer bare metal.
+
+          In order to monitor and recycle containers I wrote a Grape API on top of Sinatra to be a communication handle with our Platform as well as implemented webhook functionality to poke our platform as the machines changed states or events were fired. In order to provide monitoring of the user's actions I wrote a plugin called vagrant-camera which took a screenshot every time a user made an interaction with the virtual machine. The plugin would then fire a webhook back to our platform sending the image as a base64 jpeg
+        summarized: |
+          ASDF

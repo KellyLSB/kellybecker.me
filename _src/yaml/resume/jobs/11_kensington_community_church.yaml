@@ -1,0 +1,27 @@
+---
+  class: low priority
+  type: Work Experience
+  title: Kensington Community Church
+  duration:
+    year: 2008 - 2010
+
+  info:
+    location:
+      values:
+      - Troy, MI
+      - Rochester, MI
+    Titles:
+      values:
+      - Contracted Software Engineer
+      - Volunteer Video Camera Operator (Tripod / Handheld)
+      - Volunteer Live Video Technical Director
+      - Volunteer Live Video Director
+      - Volunteer General Stage Technician
+      - Volunteer Edge Program Atrium Designer and Setup Co-Director
+    Duration: January 2008 - October 2010
+    Details:
+      body:
+        full: |
+          TODO
+        summarized: |
+          TODO

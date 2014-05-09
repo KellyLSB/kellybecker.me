@@ -77,7 +77,8 @@ module.exports = class YamlGlobInclude
   # Load a Glob of yaml files
   @loadGlob: (glob, parent) ->
     files = @processGlob(glob, parent)
-    @loadFile(file) for file in files
+    (@loadFile(file) for file in files).filter (data) ->
+      data != null  # Ignore empty files with no data
 
 
   # Process the glob and return
@@ -120,13 +121,8 @@ module.exports = class YamlGlobInclude
         hash[key] = @postIncludes(data, parent)
         continue
 
-      # If the data is not a string
-      # do not match and continue
-      if ! typeof data is 'string'
-        continue
-
       # If data does contain an include then include it!
-      if match = data.match(/^include\ (.*)$/)
+      if typeof data is 'string' && match = data.match(/^include\ (.*)$/)
         hash[key] = @loadGlob(match[1], parent)
 
     # Return Hash

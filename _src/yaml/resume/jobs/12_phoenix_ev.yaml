@@ -1,0 +1,20 @@
+---
+  class: low priority
+  type: Work Experience
+  title: Phoenix EV Film Festivals
+  duration:
+    year: 2010 - 2011
+
+  info:
+    Location:
+      values:
+      - Remote
+      - Grand Rapids, MI
+    Title: Webmaster
+    Duration: June 2010 - June 2011
+    Details:
+      body:
+        full: |
+          TODO
+        summarized: |
+          TODO

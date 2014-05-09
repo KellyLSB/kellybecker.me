@@ -104,8 +104,8 @@
 
 
         // Child Elements
-        span.heading,
-        a.heading {
+        & > span.heading,
+        & > a.heading {
           border-top: dashed 1px #DDD;
           padding-top: 10px;
           margin-bottom: 10px;
@@ -140,7 +140,7 @@
 
 
       // Child Elements
-      span, a {
+      & > span, & > a {
 
         // Element Style
         display: block;

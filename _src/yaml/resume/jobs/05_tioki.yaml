@@ -1,0 +1,53 @@
+---
+  type: Work Experience
+  title: Tioki
+  duration:
+    year: 2012 - 2013
+
+  panel:
+    type: cloud
+    title: Technologies
+    cloud:
+      Ruby: used-4
+      Ruby on Rails: used-4
+      Capistrano: used-4
+      Rubber: used-4
+      Heroku: used-2
+      Amazon EC2: used-4
+      Amazon RDS: used-4
+      Graylog 2: used-4
+      Sendgrid: used-2
+      HAProxy: used-4
+      Rack Thin: used-4
+      Cramp.in: used-4
+      HTML: used-4
+      SCSS: used-4
+      Erb: used-4
+      Slim: used-4
+
+  info:
+    aka:
+      title: A.K.A.
+      value: Demo Lesson, Inc
+    Title: Fulle Stack Software Engineer
+    Location: Lake Merrit, Oakland, CA
+    Details:
+      body:
+        full: |
+          I had first been introduced to Tioki back when I was working for momentum in 2011. We had Brian and Mandella over for dinner and at that point I knew I would be working for them.
+
+          They flew me out to Oakland for a hack-a-thon in July on 2012. They knew I did not know ruby and having just landed back in Denver from an interview in San Francisco; I did the crazy thing anyone would do. I hopped immediately back on a plane. During the flight I studied up on Ruby, did the Ruby Koans and by the end of the flight I had completed a Rails blog complete with user authentication, user comments and basic moderation.
+
+          I spent a week with them and by the end of the week they offered me a job, thus began my California software career.
+
+          I spent a lot of time cleaning up technical debt and building out features. I very quickly took over the Operations side as well. They wanted to switch to EC2, I had recomendede against it due to the cost implecations and the fact that Heroku was working relatively well for us, but we made the switch anyway.
+
+          I implemented out switch using [Rubber](http://github.com/wr0ngway/rubber); a scaling deployment plugin for Capistrano that utilized the Amazon AWS SDK to boot up, provision and install our application with all it's required services automatically.
+
+          Over the course of the end of the year I joined the team on several team outings, hack-a-thons, meetups and presentations at our incubator Imagine K-12. I also spent a great deal of time working with out CTO and teaching him the fundamentals of object oriented programming; it was a unusual situation. In return he taught me parallel parking.
+
+          When our incubator session graduated, I joined the team at the Demo Day and helped pitch our company to investors.
+
+          Unfortunately in early January we were running out of funds and they had to cut everyone's pay. I had to leave as I could no longer afford me housing expenses; so we parted ways.
+
+          I did my best to help them with the time I had from my new job, but they were slowly tanking. They closed up shop later that year.

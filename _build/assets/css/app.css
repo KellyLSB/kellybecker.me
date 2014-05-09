@@ -438,11 +438,15 @@ td, th {
   font-weight: 300;
 }
 /* line 26, ../../../_src/scss/includes/layout/_ubuntu.scss */
-.ubuntu.medium, .page-header.social .kelly-networking > .info > .name, .page-section.experience ul > li .info span.heading, .page-section.experience ul > li .info a.heading,
-.page-section.experience ol > li .info span.heading,
-.page-section.experience ol > li .info a.heading, .cloud span.heading, .page-section.experience ul > li .info.panel.float-right span.heading,
-.page-section.experience ol > li .info.panel.float-right span.heading, .cloud a.heading, .page-section.experience ul > li .info.panel.float-right a.heading,
+.ubuntu.medium, .page-header.social .kelly-networking > .info > .name, .page-section.experience ul > li .info > span.heading, .page-section.experience ul > li .info > a.heading,
+.page-section.experience ol > li .info > span.heading,
+.page-section.experience ol > li .info > a.heading, .cloud span.heading, .page-section.experience ul > li .info.panel.float-right span.heading, .page-section.experience ul > li .info.technologies span.heading, .page-section.experience ul > li .info.cloud span.heading,
+.page-section.experience ol > li .info.panel.float-right span.heading,
+.page-section.experience ol > li .info.technologies span.heading,
+.page-section.experience ol > li .info.cloud span.heading, .cloud a.heading, .page-section.experience ul > li .info.panel.float-right a.heading, .page-section.experience ul > li .info.technologies a.heading, .page-section.experience ul > li .info.cloud a.heading,
 .page-section.experience ol > li .info.panel.float-right a.heading,
+.page-section.experience ol > li .info.technologies a.heading,
+.page-section.experience ol > li .info.cloud a.heading,
 .technologies span.heading,
 .technologies a.heading, .cloud span.used-3:not(.heading), .page-section.experience ul > li .info.panel.float-right span.used-3:not(.heading), .page-section.experience ul > li .info.technologies span.used-3:not(.heading), .page-section.experience ul > li .info.cloud span.used-3:not(.heading),
 .page-section.experience ol > li .info.panel.float-right span.used-3:not(.heading),
@@ -8602,25 +8606,19 @@ body {
   text-align: left;
 }
 /* line 108, ../../../_src/scss/includes/resume/_experience.scss */
-.page-section.experience ul > li .info.text span.heading,
-.page-section.experience ul > li .info.text a.heading, .page-section.experience ul > li .info.quote span.heading,
-.page-section.experience ul > li .info.quote a.heading, .page-section.experience ul > li .info.details span.heading,
-.page-section.experience ul > li .info.details a.heading, .page-section.experience ul > li .info.summary span.heading,
-.page-section.experience ul > li .info.summary a.heading, .page-section.experience ul > li .info.paragraphs span.heading,
-.page-section.experience ul > li .info.paragraphs a.heading, .page-section.experience ul > li .info.references span.heading,
-.page-section.experience ul > li .info.references a.heading,
-.page-section.experience ol > li .info.text span.heading,
-.page-section.experience ol > li .info.text a.heading,
-.page-section.experience ol > li .info.quote span.heading,
-.page-section.experience ol > li .info.quote a.heading,
-.page-section.experience ol > li .info.details span.heading,
-.page-section.experience ol > li .info.details a.heading,
-.page-section.experience ol > li .info.summary span.heading,
-.page-section.experience ol > li .info.summary a.heading,
-.page-section.experience ol > li .info.paragraphs span.heading,
-.page-section.experience ol > li .info.paragraphs a.heading,
-.page-section.experience ol > li .info.references span.heading,
-.page-section.experience ol > li .info.references a.heading {
+.page-section.experience ul > li .info.text > span.heading, .page-section.experience ul > li .info.text > a.heading, .page-section.experience ul > li .info.quote > span.heading, .page-section.experience ul > li .info.quote > a.heading, .page-section.experience ul > li .info.details > span.heading, .page-section.experience ul > li .info.details > a.heading, .page-section.experience ul > li .info.summary > span.heading, .page-section.experience ul > li .info.summary > a.heading, .page-section.experience ul > li .info.paragraphs > span.heading, .page-section.experience ul > li .info.paragraphs > a.heading, .page-section.experience ul > li .info.references > span.heading, .page-section.experience ul > li .info.references > a.heading,
+.page-section.experience ol > li .info.text > span.heading,
+.page-section.experience ol > li .info.text > a.heading,
+.page-section.experience ol > li .info.quote > span.heading,
+.page-section.experience ol > li .info.quote > a.heading,
+.page-section.experience ol > li .info.details > span.heading,
+.page-section.experience ol > li .info.details > a.heading,
+.page-section.experience ol > li .info.summary > span.heading,
+.page-section.experience ol > li .info.summary > a.heading,
+.page-section.experience ol > li .info.paragraphs > span.heading,
+.page-section.experience ol > li .info.paragraphs > a.heading,
+.page-section.experience ol > li .info.references > span.heading,
+.page-section.experience ol > li .info.references > a.heading {
   border-top: dashed 1px #DDD;
   padding-top: 10px;
   margin-bottom: 10px;
@@ -8697,15 +8695,15 @@ body {
   list-style-type: decimal;
 }
 /* line 143, ../../../_src/scss/includes/resume/_experience.scss */
-.page-section.experience ul > li .info span, .page-section.experience ul > li .info a,
-.page-section.experience ol > li .info span,
-.page-section.experience ol > li .info a {
+.page-section.experience ul > li .info > span, .page-section.experience ul > li .info > a,
+.page-section.experience ol > li .info > span,
+.page-section.experience ol > li .info > a {
   display: block;
 }
 /* line 150, ../../../_src/scss/includes/resume/_experience.scss */
-.page-section.experience ul > li .info span.heading, .page-section.experience ul > li .info a.heading,
-.page-section.experience ol > li .info span.heading,
-.page-section.experience ol > li .info a.heading {
+.page-section.experience ul > li .info > span.heading, .page-section.experience ul > li .info > a.heading,
+.page-section.experience ol > li .info > span.heading,
+.page-section.experience ol > li .info > a.heading {
   margin-right: 10px;
   float: left;
 }

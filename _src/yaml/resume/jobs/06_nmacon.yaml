@@ -1,0 +1,35 @@
+---
+  type: Work Experience
+  title: Northern Michigan Anime Convention
+  duration:
+    year: 2010-2011
+
+  panel:
+    type: cloud
+    title: Technologies
+    cloud:
+      ¥ENN: used-4
+      PHP: used-4
+      PHP-FPM: used 4
+      Heroku: used-4
+      Heroku Buildpack: used-4
+      Amazon RDS: used-4
+      Stripe: used-2
+      Postmarkapp: used-2
+
+  info:
+    Location:
+      values:
+      - Remote
+      - Traverse City, MI
+    Titles:
+      values:
+      - Contracted ¥ENN Installation Representative
+      - Off-site Support Representative
+    Details:
+      body: |
+        NMA got hold of me through youmacon and the Michigan Anime Convention Association. They wanted to get a license to run ¥ENN, which was the Software I had originally developed for Youmacon as a Ticketing platform and CRM.
+
+        I took over the server administration and some of the pre-convention customer service for them, as well as provided training and on-site customer service the first year.
+
+        I eventually has to stop providing the service as I did not have the time to continue managing it for Youmacon and NMA. So I did not offer the contract when it ended after 2011.

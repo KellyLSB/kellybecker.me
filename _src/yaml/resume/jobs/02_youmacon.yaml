@@ -1,0 +1,70 @@
+---
+  type: Work Experience
+  title: Defying Conventions - Youmacon
+  duration:
+    year: 2009 - 2013
+
+  panel:
+    type: cloud
+    title: Technologies
+    cloud:
+      EvolutionSDK: used-4
+      PHP: used-4
+      PHP-FPM: used-4
+      MySQL: used-4
+      Stripe: used-3
+      Postmarkapp: used-3
+      Amazon AWS RDS: used-4
+      Amazon AWS SES: used-2
+      Amazon AWS EC2: used-4
+      Amazon AWS ELB: used-2
+      Rackspace Public Cloud: used-4
+      Dreamhost Shared Tenancy: used-3
+      Amazon AWS AMI: used-2
+      Amazon AWS S3: used-3
+      Ubuntu 10.04 LTS: used-4
+      PhpBB: used-0
+      HTML: used-3
+      CSS: used-3
+      Apache: used-3
+      Apache Mod PHP: used-3
+      Centos: used-2
+      Nginx: used-4
+      PayPal API - SOAP: used-3
+      LHTML: used-4
+      Graylog 2: used-3
+      Joomla: used-0
+      HAproxy: used-3
+
+  info:
+    Location:
+      values:
+      - Remote
+      - Detroit, MI
+    Titles:
+      values:
+      - Registration Software Architect
+      - Server Administrator
+      - Director of Pre-Registration
+      - Assistant to the Chairman
+    Duration: June 2009 - November 2013
+    Details:
+      body:
+        full: |
+          Youmacon was my first real big job. I had been doing some small jobs writing custom Content and Customer Relation Management Systems for years. I was approached to architect, build, deploy and manage a ticket sales application for a ~5,000 person convention. I jumped on the opportunity and proved myself very quickly.
+
+          The initial system was really nothing special. It was built from scraps of my old projects and had a really bad design, but it was functional. It integrated with the PayPal SOAP Api to process the ticket sales while providing a backend that could be used to handle refunds, complimentary tickets and discounts.
+
+          Over the years it started becoming a platform and I modualarized all the components, bought the rights, contracted it back to them and named it &#165;ENN rEvolution. The new platform had so much more; it had gifting, stripe integration, convention staff management, and newsletter aggregation to get our attendees all excited for the upcoming year (using Amazon SES). It was and still slightly is one of my biggest prides.
+
+          The platform was built on EvolutionSDK V3; the same framework built by the teams at Verschoyle and Momentum OS, I felt since it was a framework I thoroughly understood it would be the best for the job, and it was amazing running on top of PHP-FPM and Nginx.
+
+          I resigned in December 2013 as the convention grew so large I was no longer able to manage the pre-registration and since the convention has primarily volunteer staff I was not able to consistently get help. Though depending, since I know they need it and the Chairman won&#39;t stop asking me, I may go to the convention and run his registration department on site like I had been. He usually needs someone dedicated and loyal to his business needs to help put out the fires.
+        summarized: |
+          Help Ben
+    Recomendation:
+      type: quote
+      body: |
+        Since Kelly's introduction to my staff, my event has advanced far beyond its previous scope through the systems she developed for us. With these systems, we can process information and registrations with far greater efficiency and efficacy. Thanks to her efforts, our capabilities are far greater than those of our competitors, and our event has greatly expanded as a whole.
+
+        <cite>Morgan Kollin - Chairman, Defying Conventions</cite>

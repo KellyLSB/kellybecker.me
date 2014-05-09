@@ -32,14 +32,18 @@ mixin section-list-item(item)
 
           if is_string
             span.heading= info_key
-            span.value= info
+            span.value!= info
 
           else
-            if info['value'] || typeof info['body'] === 'string'
+            if info['value'] || info['values'] || typeof info['body'] === 'string'
               span.heading= info['title'] || info_key
 
               if info['value']
-                span.value= info.value
+                span.value!= info.value
+
+              if info['values']
+                each value in info['values']
+                  span.value!= value
 
               if typeof info['body'] === 'string'
                 != info.body.markdown()

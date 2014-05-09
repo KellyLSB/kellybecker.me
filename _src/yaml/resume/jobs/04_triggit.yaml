@@ -1,0 +1,64 @@
+---
+  type: Work Experience
+  title: Triggit
+  duration:
+    year: '2013'
+
+  panel:
+    type: cloud
+    title: Technologies
+    cloud:
+      Ruby: used-4
+      Ruby on Rails: used-2
+      IRC: used-4
+      Clojure: used-0
+      C: used-0
+      Hadoop: used-2
+      Hive: used-3
+      Cassandra: used-1
+      Postgres: used-4
+      MySQL: used-2
+      Redis: used-4
+      Amazon S3: used-3
+      Datapipe Metal: used-4
+      Datapipe Cloud: used-2
+      Bash / SH: used-4
+      Genders DB: used-4
+      Puppet: used-4
+      Ruby / Net-SSH: used-4
+      GPG: used-3
+      Nginx: used-2
+      Apache: used-1
+      Go-Lang: used-0
+      HAproxy: used-4
+      HTML: used-2
+      CSS: used-2
+      Javascript: used-3
+      Coffeescript: used-2
+
+  info:
+    Location: Mission, San Francisco, CA
+    Title: Support / DevOps Engineer
+    Duration: January 2013 - July 2013
+
+    Details:
+      body:
+        full: |
+          Triggit was my first DIY shop. They were all about not telling you what to do and just having you jump in the deep end, often without teaching you to swim. I actually realized an issue that became really apparent after the next technical hire after me; they never actually gave me "training"; or even documents showing their stack. I actually had to explore and figure it all out myself. Considering this and the complexity of the Triggit stack I think I did a really good job of that.
+          
+          I was hired to be a technical liason between the customer support team and the rails self-service platform. After hiring me they actually seemed confused on what I would do, so I did a couple Ruby tickets, then got bored. After asking what I was supposed to be doing a couple times I got put to work optimizing and updating Hive queries for the reporting exports as well as running manual reports or even sraping the documents directly from Hadoop.
+          
+          Evntually I needed a break from the menial tasks. I went to Ryan (CTO) and asked him if there was something else I could work on to un-burn myself out. He said he could not think of anything, but if I found anything or thought of anything that I should let him know. The next day in the morning roundtable Ben, our operations guy, mentioned he was extrmely backlogged. I offered to help; this was my official introduction to Dev Ops.
+          
+          He showed me the tools and scripts he was using and I could not make head or tails of them; they were all aliased with short acronyms. I think his puppet run scripts were `upr` or something like that. Many were shorter and ran operations on multiple machines and were potentially dangerous with no organization or documentation. I quickly understood why he was backlogged. The first thing that I noticed was our puppet manifests; I had some small experience with puppet before, but nothing major and even I knew that this was horrendous. There were 250 server declarations and every single type in use were all declared in the same file. To add insult to injury the entire file had mixed indentions and appeared to be minified. There was a lot of work to do.
+          
+          I sat down with Ben and determined that he was a classic system administrator and he started having trouble managing the server stack after about 50 servers and was to prideful to ask for help. I don&#39;t say this to say he was an arrogant man, most of the time, but rather to emphasize the challenge that was at hand. My first week helping him I had a goal; properly indent and organize his puppet manifests, changing nothing. I ran it by him and Ryan and very quickly was given the approval, so I got to work. The process took about two days with me working on it from about 10 - 8 every day. After eventually merging it in piece by piece (due to heavy peer review; though nothing changed, puppet noop showed that) we were ready to roll.
+          The next steps were to remove the duplicate puppet classes and fix the dependency ordering as well as start using community puppet modules in place of some of our not-as-well written or documented custom classes. This process took about two months and then little bits here and there, and that process was still going on after I left.
+          
+          We also had to tackle how Puppet was running; Ben insisted on using a master-slave configuration that ran only on demand. To work with this stipulation and the delays it caused when trying to update all 250 servers at once I had to get creative. I wrote an early version of what is now my [CLI Tool](http://github.com/KellyLSB/cli_tool) project, though the original at Triggit had much more features. The app was in ruby and handled booting up the puppet masters in the given data centers for the server tags we were running puppet on. Once the masters were started it would then boot up each slave server individually, run a noop, dump the changes to a markdown file and stdout, then ask if it should continue. It had a force yes option on the CLI as well, but it was rarely used due to stability issues. This tool allowed up to move from undocumented aliases to an application that ran on the developer's machine instead of server side and had an api like so `puppet-tool run dc newyork` which would run all the puppet clients in the newyork data center. The tool even would dump a log of each transaction into the current working directory where the log was run, broken up by the server hostname and the date. The goal was full transparency.
+          
+          Along with all this I wrote a backup daemon. This daemon would listen for incoming connections from a FIFO on it&#39;s host, then would run the selected library and name, backing up whatever the library was meant to backup. The whole application had a standardized API and I wrote libraries for MySQL, Postgres, Redis, Cassandra and our configuration files. The server would then process the data as requested by the library and then the library was expected to return a single file. This file would be bziped with libbzip2 (if not already compressed) and then would gpg encrypt the file and upload it to s3 or output it to a specified directory. The daemon also had hooks for the CLI tool I wrote that would download and decrypt the latest (or latest to a date provided) backup of any of the backup types and either A restore it or B download it to your dev machine and optionally import it locally.
+          
+          While I was employed we had a lot of issues with the network in the office, mostly due to the router dying and all the engineers being on wireless. There were also concerns that we should not have our guests on the network, because of direct VPN connections to our data centers. In order to help with this issue I set up a new network by running new cables to the engineers as well as building and installing a new router capable of easily constraining machines to specific subnets as well as traffic controlling. To build this network I got us a proper UPS to ensure that all our critical communications hardware would be sufficient as well as a [Soekris net5501](http://soekris.com/products/net5501.html) which I installed [pfSense](https://www.pfsense.org) on. This new router was setup to support roaming wifi as well as adding a guest network that was seperate from the rest of the network, ensuring security of our servers, local hardware and development machines. I also was fairly active with company extracuricular events and was a party member of the wednesday night Dungeons and Dragons group (I was the tank). I put all my points into Dex and Strength with near zero intelligence. The party always sent me in first to absorb damage, but my character was known to scream "its dark in here, I can't see anything!"; This, of course, alerted all the monsters in the dungeon. Haha, good times!
+        summarized: |
+          ASDF

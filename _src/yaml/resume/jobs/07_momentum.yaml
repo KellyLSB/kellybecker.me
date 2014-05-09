@@ -1,0 +1,51 @@
+---
+  type: Work Experience
+  title: Momentum OS, Inc
+  duration:
+    year: 2010 - 2012
+
+  panel:
+    type: cloud
+    title: Technologies
+    cloud:
+      PHP: used-4
+      HTML: used-4
+      LHTML: used-4
+      EvolutionSDK: used-4
+      Javascript: used-4
+      jQuery: used-4
+      Backbone.JS: used-3
+      Jolt: used-4
+      MySQL: used-4
+      Heroku: used-3
+      Heroku Buildpack: used-3
+      PSD 2 CSS & HTML: used-4
+      Ubuntu 10.04 LTS: used-4
+      CentOS: used-2
+      Ubuntu 12.04 LTS: used-2
+      Red Hat Enterprise Linux 5: used-4
+      Trustwave PCI Compliance Scan: used-4
+      PCI Compliance: used-4
+      Amazon RDS: used-4
+      Amazon EC2: used-4
+      Rackspace Hosted Private Metal: used-4
+      Amazon S3: used-4
+      More: used-4
+
+  info:
+    Location:
+      values:
+      - Remote (2010 - Oct, 2011)
+      - Los Angeles, CA (Nov, Dec 2011)
+      - Colorado Springs, CO (2012)
+    Title: Full Stack Software Engineer
+    Duration: June 2010 - July 2012
+    Details:
+      # environment:
+      # 	development: true
+      # 	release: false
+      body:
+        full: |
+          TODO!
+        summarized: |
+          TODO!

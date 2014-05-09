@@ -1,0 +1,27 @@
+---
+  type: Work Experience
+  title: The World Steam Expo
+  duration:
+    year: 2009 - 2011
+
+  info:
+    aka:
+      title: A.K.A.
+      value: Defying Conventions
+    Location:
+      values:
+      - Remote
+      - Nove, MI
+    Titles:
+      values:
+      - Registration Software Architect
+      - Website Server Administrator
+      - Director of Pre-Registration
+      - Assistant to the Chairman
+    Duration: March 2009 - May 2011
+    Details:
+      body:
+        full: |
+          TODO
+        summarized: |
+          TODO
