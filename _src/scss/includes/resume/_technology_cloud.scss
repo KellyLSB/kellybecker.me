@@ -49,29 +49,36 @@
 
 
       // Alternate Style
-      &.used-0 {
+      &.used-0,
+      &.rank-0,
+      &.rank-00 {
         @extend .ubuntu.light;
         font-size: 0.78em;
         color: red;
       }
 
-      &.used-1 {
+      &.used-1,
+      &.rank-25 {
         @extend .ubuntu.light;
         font-size: 0.95em;
         color: grey;
       }
 
-      &.used-2 {
+      &.used-2,
+      &.rank-50 {
         @extend .ubuntu.normal;
       }
 
-      &.used-3 {
+      &.used-3,
+      &.rank-75 {
         @extend .ubuntu.medium;
         font-size: 1em;
         color: blue;
       }
 
-      &.owned, &.used-4 {
+      &.owned,
+      &.used-4,
+      &.rank-99 {
         @extend .ubuntu.bold;
         font-size: 1.2em;
         color: violet;

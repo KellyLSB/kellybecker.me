@@ -11,6 +11,7 @@
       EvolutionSDK: used-4
       PHP: used-4
       PHP-FPM: used-4
+      ¥ENN: used-4
       MySQL: used-4
       Stripe: used-3
       Postmarkapp: used-3
@@ -35,6 +36,7 @@
       Graylog 2: used-3
       Joomla: used-0
       HAproxy: used-3
+      Git: used-4
 
   info:
     Location:
@@ -61,10 +63,13 @@
 
           I resigned in December 2013 as the convention grew so large I was no longer able to manage the pre-registration and since the convention has primarily volunteer staff I was not able to consistently get help. Though depending, since I know they need it and the Chairman won&#39;t stop asking me, I may go to the convention and run his registration department on site like I had been. He usually needs someone dedicated and loyal to his business needs to help put out the fires.
         summarized: |
-          Help Ben
-    Recomendation:
+          Youmacon approached me to build Registration Software for them so they could do even registration online. I wrote a piece of software entitled ¥ENN in exchange for free tickets to the event and publicity.
+
+          I owned the rights to the software and it spun off into the ¥ENN project with is a pre-convention Registration Software in combination with a basic CMS and CRM; I negotiated owning the rights to it as well.
+
+          I later joined the Registration Department and provided onsite support as well as directly assisting the Chairman at con.
+    Recommendation:
       type: quote
       body: |
-        Since Kelly's introduction to my staff, my event has advanced far beyond its previous scope through the systems she developed for us. With these systems, we can process information and registrations with far greater efficiency and efficacy. Thanks to her efforts, our capabilities are far greater than those of our competitors, and our event has greatly expanded as a whole.
-
-        <cite>Morgan Kollin - Chairman, Defying Conventions</cite>
+        > Since Kelly's introduction to my staff, my event has advanced far beyond its previous scope through the systems she developed for us. With these systems, we can process information and registrations with far greater efficiency and efficacy. Thanks to her efforts, our capabilities are far greater than those of our competitors, and our event has greatly expanded as a whole.
+        > <cite>Morgan Kollin - Chairman, Defying Conventions</cite>

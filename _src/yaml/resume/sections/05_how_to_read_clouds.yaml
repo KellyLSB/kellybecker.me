@@ -1,0 +1,55 @@
+---
+  except_format!: lexicon
+  class: how-to-read-technology-clouds
+  title: How To Read Technology Clouds
+
+  body: |
+    I decided to use skill clouds to show my expertise and use of a specific technology. I felt that this would help the things I love and have worked with frequently "pop-out" when looking over my resume at a glimpse. There are 5 categories though depending on the section you are viewing they should have different interpretations. Don't worry they are almost the same.
+
+    <div class="row">
+      <div class="small-6 columns">
+        <h4>Work Experience Cloud Map</h4>
+
+        <p>The technology clouds under work experience show the technologies I used often.</p>
+
+        <ol>
+          <li style="color: red;">
+            Red, Very Small Font: Technology was  present; no direct interaction.
+          </li>
+          <li style="color: grey;">
+            Grey, Small Font: Technology was present; extremely little interaction.
+          </li>
+          <li>
+            Black, Normal Sized Font: Technology was present; little interaction.
+          </li>
+          <li style="color: blue;">
+            Blue, Normal Sized Font: Technology was present; average interaction.
+          </li>
+          <li style="color: violet;">
+            Violet, Large Bold Font: Technology was present; major interaction / ownership.
+           </li>
+         </div>
+         <div class="small-6 columns">
+           <h4> Skill Cloud Map</h4>
+
+           <p>The technology clouds under work experience show the technologies I used often.</p>
+
+           <ol>
+              <li style="color: red;">
+                Red, Very Small Font: Known; no interest.
+              </li>
+              <li style="color: grey;">
+                Grey, Small Font: Amatuer; less then 25% expertise.
+              </li>
+              <li>
+                Black, Normal Sized Font: Professional; greater than 25% expertise and less then 75% expertise.
+              </li>
+              <li style="color: blue;">
+                Blue, Normal Sized Font: Highly Professional; Greater than 75% expertise.
+              </li>
+              <li style="color: violet;">
+                Violet, Large Bold Font: Almost Expert; Around ~99.9909% expertise.
+              </li>
+            </ol>
+          </div>
+        </div>

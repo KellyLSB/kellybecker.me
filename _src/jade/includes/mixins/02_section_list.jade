@@ -1,4 +1,10 @@
 mixin section-list(list)
-  ul.section-list
-    each item in list
-      +section-list-item(item)
+  if list['type'] == 'experience'
+    ul.section-list
+      each item in list['items']
+        +section-list-experience(item)
+
+  if list['type'] == 'panels'
+    .row
+      each item in list['items']
+        +section-list-panel(item)

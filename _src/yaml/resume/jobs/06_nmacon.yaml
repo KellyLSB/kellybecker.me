@@ -10,7 +10,8 @@
     cloud:
       ¥ENN: used-4
       PHP: used-4
-      PHP-FPM: used 4
+      PHP-FPM: used-4
+      Nginx: used-4
       Heroku: used-4
       Heroku Buildpack: used-4
       Amazon RDS: used-4

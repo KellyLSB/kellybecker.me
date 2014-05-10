@@ -1,0 +1,11 @@
+mixin section-list-item-panel(item, float_right)
+
+  - var panel_class = [item['title'].anchorname()]
+  - if(item['cloud']) { panel_class.unshift('cloud') }
+  - if(item['type']) { panel_class.unshift(item.type.anchorname()) }
+  - if(item['class']) { panel_class.unshift(item.class.anchorname()) }
+  - if(float_right) { panel_class.unshift('float-right') }
+
+  .panel(class=panel_class.unique())
+    h4= item.title
+    block

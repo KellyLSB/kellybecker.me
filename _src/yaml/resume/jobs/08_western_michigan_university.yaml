@@ -3,6 +3,16 @@
   type: Work Experience
   title: Western Michigan University
 
+  panel:
+    type: cloud
+    title: Technologies
+    cloud:
+      Pen: used-4
+      Paper: used-4
+      Ocular Sorting Algorithm: used-4
+      Vocal Cords: used-4
+      Smiles: used-4
+
   info:
     Location: Kalamazoo, MI
     Title: Henry Hall "Deskie"

@@ -7,15 +7,13 @@
     border: none !important;
 
 
-    // Child Elements
-    & > .quote {
-      &:first-of-type {
-        content: "\201C"
-      }
+    &:before {
+      content: open-quote;
+    }
 
-      &:last-of-type {
-        content: "\201D"
-      }
+    
+    &:after {
+      content: open-quote;
     }
   }
 }

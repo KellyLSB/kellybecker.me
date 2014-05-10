@@ -19,10 +19,10 @@
       MySQL: used-4
       Heroku: used-3
       Heroku Buildpack: used-3
-      PSD 2 CSS & HTML: used-4
+      PSD 2 CSS and HTML: used-4
       Ubuntu 10.04 LTS: used-4
       CentOS: used-2
-      Ubuntu 12.04 LTS: used-2
+      Ubuntu 12.04 LTS: used-3
       Red Hat Enterprise Linux 5: used-4
       Trustwave PCI Compliance Scan: used-4
       PCI Compliance: used-4
@@ -30,6 +30,8 @@
       Amazon EC2: used-4
       Rackspace Hosted Private Metal: used-4
       Amazon S3: used-4
+      SVN: used-4
+      Git: used-4
       More: used-4
 
   info:
@@ -48,4 +50,14 @@
         full: |
           TODO!
         summarized: |
-          TODO!
+          At Momentum I was responsible for the full stack; in fact we all were. By full stack I mean HTML, CSS, PSD 2 HTML and CSS, Javascript, PHP and the servers themselves.
+
+          As a team we developed the [EvolutionSDK](http://github.com/EvolutionSDK) framework to power our platform. My main contributions; though there were many others as well were: The LHTML Bundle stacks and tags, The SQL Bundle and the Resources Bundle.
+
+          I spent a lot of time slicing and coding up designs and writing javascript for our front end as well as backend code. I even was responsible for setting up, provisioning, deploying and ensuring that our servers were PCI compliant during the time we had our own credit card data server while we were using Authorize.net for payments.
+
+    Recommendation:
+      type: quote
+      body: |
+        > Kelly is a highly proficient programmer and detail oriented software engineer that can adapt to any situation and find creative solutions for almost any technical requirement. She thinks outside of the box and writes clear, well documented code.
+        > <cite>David Boskovic - CTO, Momentum OS, Inc.</cite>

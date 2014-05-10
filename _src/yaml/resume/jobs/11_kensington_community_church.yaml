@@ -5,6 +5,14 @@
   duration:
     year: 2008 - 2010
 
+  panel:
+    type: cloud
+    title: Technologies
+    cloud:
+      MySQL: used-4
+      PHP: used-4
+      HTML: used-4
+
   info:
     location:
       values:
@@ -19,9 +27,16 @@
       - Volunteer General Stage Technician
       - Volunteer Edge Program Atrium Designer and Setup Co-Director
     Duration: January 2008 - October 2010
-    Details:
-      body:
-        full: |
-          TODO
-        summarized: |
-          TODO
+
+    # Details:
+    #   body:
+    #     full: |
+    #       TODO
+    #     summarized: |
+    #       TODO
+
+    Recommendation:
+      type: quote
+      body: |
+        > Kelly is an incredible developer in PHP and more languages. At the time I hired Kelly, it was to create a from-scratch content management system to manage several college age small groups from our church. Kelly put together a site quickly that was better than the overall content manager of our church's entire website. It's still an incredible management tool, and that was 4 years ago with no upgrades. Kelly thinks forward when it comes to coding, and writes the simplest, most scalable web solutions. Kelly is the best coder I have ever worked with, and probably ever will, the way she stays ahead of the game
+        > <cite>Cameron Underdown - Rochester Hills Edge Campus Director, Kensington Community Church</cite>

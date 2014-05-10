@@ -2,6 +2,21 @@
   type: Work Experience
   title: Verschoyle Innovation Corp.
 
+  panel:
+    type: cloud
+    title: Technologies
+    cloud:
+      CentOS: used-4
+      Rackspace Cloud: used-4
+      MySQL: used-4
+      PHP: used-4
+      Wordpress: used-2
+      Evolution 2: used-3
+      HTML: used-4
+      CSS: used-4
+      PSD 2 HTML and CSS: used-4
+      SVN: used-4
+
   info:
     Location: Remote
     Title: PHP / Systems Contractor
@@ -12,4 +27,6 @@
         full: |
           TODO
         summarized: |
-          TODO
+          At Verschoyle I essentially was an on-call contactor. If something neded done NOW! I was called. The work was primarily writing Word Press plugins or little features here and there in what at the time was Evolution 2.
+
+          I also did some system administration including scaling a MySQL server to a Master-Slave setup on CentOS hosted on the early Rackspace Cloud.

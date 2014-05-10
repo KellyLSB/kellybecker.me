@@ -1,0 +1,9 @@
+mixin section-list-panel(item)
+  .small-6.columns
+    +section-list-item-panel(item)
+      if item['cloud']
+        each c, n in item.cloud
+          span(class=c)= n
+
+      if item['body']
+        != item.body.markdown()

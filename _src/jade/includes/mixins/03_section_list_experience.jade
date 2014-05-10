@@ -1,0 +1,49 @@
+mixin section-list-experience(item)
+
+  - var li_class = [item.title.anchorname()]
+  - if(item['type']) { li_class.unshift(item.type.anchorname()) }
+  - if(item['class']) { li_class.unshift(item.class.anchorname()) }
+
+  li(class=li_class.unique())
+    a(name=item.title.anchorname(item.type))
+
+    if item['panel']
+      +section-list-item-panel(item.panel, true)
+
+    h4(class=item['panel'] ? 'panel-on-right' : '')
+      span= item.title
+      if item['duration'] && item.duration['year']
+        span.year= '(' + item.duration.year + ')'
+
+    if item['info']
+      each info, info_key in item.info
+
+        //- If the value of the detail is
+        //- a string then set is string to change the output
+        - var is_string = typeof info === 'string'
+
+        - if(!is_string) {
+        -   var info_class = [(info['title'] || info_key).anchorname()]
+        -   if(info['type']) { info_class.unshift(info.type.anchorname()) }
+        -   if(info['class']) { info_class.unshift(info.class.anchorname()) }
+        - } else { info_class = [] }
+
+        .info(class=info_class.unique())
+
+          if is_string
+            span.heading= info_key
+            span.value!= info
+
+          else
+            if info['value'] || info['values'] || typeof info['body'] === 'string'
+              span.heading= info['title'] || info_key
+
+              if info['value']
+                span.value!= info.value
+
+              if info['values']
+                each value in info['values']
+                  span.value!= value
+
+              if typeof info['body'] === 'string'
+                != info.body.markdown()

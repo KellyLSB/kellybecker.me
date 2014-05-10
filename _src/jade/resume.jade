@@ -13,14 +13,21 @@ block pageHeader
 
 
 block pageContent
-  each section in pageData.sections
-    +page-section(section.title)(class=section.class)
-      h3= section.title
+  if pageData.format == 'lexicon'
+    +page-section('Lexicon')(class='lexicon')
+      h3 Resume Lexicon
 
-      //- Section List
-      if section['list']
-        +section-list(section.list)
+      each section in pageData.sections
+        +page-lexicon(section)
+  else
+    each section in pageData.sections
+      +page-section(section.title)(class=section.class)
+        h3= section.title
 
-      //- Render Body as Markdown
-      if section['body']
-        != section.body.markdown()
+        //- Section List
+        if section['list']
+          +section-list(section.list)
+
+        //- Render Body as Markdown
+        if section['body']
+          != section.body.markdown()

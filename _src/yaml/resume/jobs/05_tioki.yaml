@@ -24,6 +24,7 @@
       SCSS: used-4
       Erb: used-4
       Slim: used-4
+      Git: used-4
 
   info:
     aka:
@@ -51,3 +52,20 @@
           Unfortunately in early January we were running out of funds and they had to cut everyone's pay. I had to leave as I could no longer afford me housing expenses; so we parted ways.
 
           I did my best to help them with the time I had from my new job, but they were slowly tanking. They closed up shop later that year.
+        summarized: |
+          Tioki hired me on to help them optimize their Rails application and remove as much technical debt as possible, while getting as many features implemented as possible before Imagine K-12 Demo Day.
+
+          We worked like dogs 10 hours a day, 6 days a week to try and reach this goal. I helped with the migration off Heroku and onto EC2 using [Rubber](http://github.com/wr0ngway/rubber); a plugin for Capistrano. This tool essentially combines the ideaologies of Capistrano with full server bootup and provisioning.
+
+          I also got us hooked up with [Cramp](http://cramp.in) as a asynchronous framework for Server Sent Events support and [Graylog 2](http://www.graylog2.org/) for logging of both the application and our EC2 instances.
+
+          Along side my Dev responsabilities I helped pitch our company at the Imagine K-12 Demo Day and also represented our company at edtech meetups and the Bill and Melinda Gates Foundation Hack for Education, hosted by Facebook.
+
+    Recommendations:
+      type: quote
+      body: |
+        > Kelly is an absolutely terrific programer and has brought a lot of talent to the team. I've worked with her on a number of projects and she executed them quickly and efficiently. She'd be a great asset to development on any team.
+        > <cite>Pete Walton - VP of Marketing, Tioki.</cite>
+
+        > Kelly is an absolute pleasure to work with. She has a forward thinking mind, always considering the ultimate goal of a product when taking any actions in the present. She is clean, reliable, and efficient. It would be difficult for me to think of something she couldn't accomplish if she put her mind to it.
+        > <cite>Brian Martinez - COO, Tioki.</cite>

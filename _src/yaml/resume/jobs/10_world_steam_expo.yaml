@@ -4,6 +4,29 @@
   duration:
     year: 2009 - 2011
 
+  panel:
+    type: cloud
+    title: Technologies
+    cloud:
+      EvolutionSDK: used-4
+      PHP: used-4
+      PHP-FPM: used-4
+      ¥ENN: used-4
+      MySQL: used-4
+      Stripe: used-3
+      Postmarkapp: used-3
+      Amazon AWS RDS: used-4
+      Amazon AWS EC2: used-4
+      Amazon AWS S3: used-3
+      Ubuntu 10.04 LTS: used-4
+      PhpBB: used-0
+      HTML: used-3
+      CSS: used-3
+      Nginx: used-4
+      LHTML: used-4
+      Graylog 2: used-3
+      Git: used-4
+
   info:
     aka:
       title: A.K.A.
@@ -22,6 +45,10 @@
     Details:
       body:
         full: |
-          TODO
-        summarized: |
-          TODO
+          World Steam Expo was Morgan Kollin's second big convention. Because I was already doing Youmacon's site He asking me to do World Steam's as well. I agreed. Essentially my responsibilities were exactly the same, just there were different people.
+
+    Recommendation:
+      type: quote
+      body: |
+        > Since Kelly's introduction to my staff, my event has advanced far beyond its previous scope through the systems she developed for us. With these systems, we can process information and registrations with far greater efficiency and efficacy. Thanks to her efforts, our capabilities are far greater than those of our competitors, and our event has greatly expanded as a whole.
+        > <cite>Morgan Kollin - Chairman, Defying Conventions</cite>

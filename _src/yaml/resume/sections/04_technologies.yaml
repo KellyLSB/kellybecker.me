@@ -1,0 +1,96 @@
+---
+  class: technologies
+  title: Technology Clouds
+  list:
+    type: panels
+    items:
+      -
+        class: skill-cloud
+        type: cloud
+        title: Languages
+        cloud:
+          bash/sh: rank-75
+          puppet: rank-75
+          dockerfile: rank-75
+          sql: rank-75
+          ruby: rank-75
+          php: rank-75
+          lhtml: rank-99
+          node.js: rank-75
+          javascript: rank-75
+          coffeescript: rank-75
+          less-css: rank-75
+          sass: rank-75
+          css: rank-75
+          html: rank-75
+          python: rank-25
+          elixir: rank-25
+          go-lang: rank-25
+          clojure: rank-25
+          c: rank-25
+          assembly: rank-25
+      -
+        class: skill-cloud
+        type: cloud
+        title: Operating Systems
+        cloud:
+          mac-os-x: rank-75 ops dev
+          ubuntu: rank-99 ops dev
+          debian: rank-75 ops dev
+          fedora: rank-75 ops dev
+          centos: rank-50 ops
+          redhat-enterprise-linux: rank-50 ops dev
+          windows: rank-00 ops dev
+          bsd: rank-25 ops dev
+      -
+        class: skill-cloud
+        type: cloud
+        title: Caching Software
+        cloud:
+          redis: rank-75 ops dev
+          memcache: rank-75 ops dev
+      -
+        class: skill-cloud
+        type: cloud
+        title: Frameworks and Libraries
+        cloud:
+          ruby/rails: rank-99 ops dev
+          ruby/padrino: rank-50 ops dev
+          ruby/sinatra: rank-50 ops dev
+          ruby/active-record: rank-75 ops dev
+          ruby/active-support: rank-75 ops dev
+          ruby/net-ssh: rank-75 ops dev
+          ruby/net-sftp: rank-75 ops dev
+          ruby/thread: rank-75 ops dev
+          node/express: rank-75 ops dev
+          html-css/zurb-foundation: rank-75 ops dev
+          html-css/bootstrap: rank-75 ops dev
+          elixir/ecto: rank-25 ops dev
+          php/evolutionsdk: rank-99 ops dev
+          php/codeignitor: rank-75 ops dev
+          php/wordpress: rank-00 ops dev
+          php/joomla: rank-00 ops dev
+      -
+        class: skill-cloud
+        type: cloud
+        title: SQL Databases
+        cloud:
+          mysql: rank-75 dev ops
+          postgres: rank-75 dev ops
+          sqlite: rank-75 dev
+          aws-rds: rank-75 dev
+          hive: rank-50 dev ops
+      -
+        class: skill-cloud
+        type: cloud
+        title: NoSQL Databases
+        cloud:
+          mongodb: rank-75 dev ops
+          couchbase: rank-75 dev ops
+          hadoop: rank-50 ops
+      -
+        class: skill-cloud
+        type: cloud
+        title: Other Databases
+        cloud:
+          cassandra: rank-50 ops

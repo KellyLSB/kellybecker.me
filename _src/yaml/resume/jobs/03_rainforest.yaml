@@ -27,6 +27,8 @@
       Amazon S3: used-2
       Amazon Mechanical Turk: used-2
       Postgres: used-3
+      Elixir: used-2
+      Git: used-4
 
   info:
     aka:
@@ -48,4 +50,8 @@
 
           In order to monitor and recycle containers I wrote a Grape API on top of Sinatra to be a communication handle with our Platform as well as implemented webhook functionality to poke our platform as the machines changed states or events were fired. In order to provide monitoring of the user's actions I wrote a plugin called vagrant-camera which took a screenshot every time a user made an interaction with the virtual machine. The plugin would then fire a webhook back to our platform sending the image as a base64 jpeg
         summarized: |
-          ASDF
+          During my short term at Rainforest I updated the Rspec and Jasmine definitions; while replacing the fixtures with factories. The specs were out of date due to the fixtures, so there was also a lot of code that needed to be updated.
+
+          Once I had completed that project the remainder of my time was spent building a Cascading Hypervisor Fronted by Sinatra and Vagrant. We needed to have recylcable Windows Machines for our Mechanical Turk Users; so the machines only needed to live at a minimum of 15 - 20 minutes. Once we had the basic architecture working after finally settling on Softlater for hosting; I wrote a plugin for vagrant that captured the screen whenever I input was made from the user. This allowed us to verify the authenticity of their tests.
+
+          We also played around with a lot of new languages; like [Elixir](http://elixir-lang.org)!

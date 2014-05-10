@@ -5,6 +5,16 @@
   duration:
     year: 2010 - 2011
 
+  panel:
+    type: cloud
+    title: Technologies
+    cloud:
+      MySQL: used-4
+      PHP: used-4
+      HTML: used-4
+      CSS: used-4
+      1 and 1: used-4
+
   info:
     Location:
       values:
@@ -15,6 +25,4 @@
     Details:
       body:
         full: |
-          TODO
-        summarized: |
-          TODO
+          Phoenix approached me through the Michigan Anime Convention Association (similarly to NMA and World Steam). This time however, the just wanted someone to manage their website. So I set them up a simple more or less static site with some PHP for dynamic content. It was simple and did not need much else.
