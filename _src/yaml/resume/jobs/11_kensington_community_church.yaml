@@ -30,9 +30,9 @@
 
     # Details:
     #   body:
-    #     full: |
+    #     full!: |
     #       TODO
-    #     summarized: |
+    #     summarized!: |
     #       TODO
 
     Recommendation:

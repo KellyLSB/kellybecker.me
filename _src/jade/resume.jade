@@ -17,8 +17,10 @@ block pageContent
     +page-section('Lexicon')(class='lexicon')
       h3 Resume Lexicon
 
-      each section in pageData.sections
-        +page-lexicon(section)
+      .row
+      
+        each section in pageData.sections
+          +page-lexicon(section)
   else
     each section in pageData.sections
       +page-section(section.title)(class=section.class)

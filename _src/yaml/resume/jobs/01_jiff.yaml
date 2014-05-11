@@ -48,7 +48,7 @@
     Duration: September 2013 - April 2014
     Details:
       body:
-        full: |
+        full!: |
           At Jiff I was responsible for the Rails Platform. I was part of a team of 4 total engineers; made of up of our Lead Engineer, another Sr. Engineer, a Jr. Engineer and Me.
 
           We were constantly working on making our Ruby backend to be more responsive and more optimized. Our long term goal was to reorganize our platform code to be more fit for a Service Oriented Architecture. We started by optimizing our pain points that used heavy queries, duplicated code and overly complex data models. Then we spent time determining which components were specific to services we offered; then the hacking began and I mean literal hacking we cut out close to 75% of the code base and we still had more to go when I left.
@@ -58,7 +58,7 @@
           Along side this plan, I proposed a PaaS server architecture using Amazon VPC, EC2 and Docker.IO with Bind9 Dynamic DNS for service discovery. There was much team backing and there was even time that was allocated to the implementation process as well as a working prototype. Unfortunately our new VP of Engineering had cancelled the project before it&#39;s completion.
 
           Along side gemification I was a huge advocate for taking non-company critical code and releasing it open source. We released 2 gems during my duration at Jiff, unfortunately there was not enough time to properly document them to my satisfaction. Upon being let go I forked them and plan to continue development on them.
-        summarized: |
+        summarized!: |
           Worked with the team to split up a monolithic Rails application into services that could run either joined with the Platform or as individual services.
 
           ###### **Published two Ruby Gems:**

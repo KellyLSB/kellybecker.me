@@ -48,7 +48,7 @@ module.exports = (grunt) ->
         data: (dest, file) ->
           # Patch: Jade Glob
           $.initJadeGlob this.jade
-          $.initClassExtensions()
+          $.initObjectExtensions()
 
           helpers: $.jadeHelpers
           assetPath: $.jadeAssetPath(dest)
@@ -61,6 +61,7 @@ module.exports = (grunt) ->
           '_build/resume/full.html': '_src/jade/resume.jade'
           '_build/resume/cover.html': '_src/jade/resume.jade'
           '_build/resume/summarized.html': '_src/jade/resume.jade'
+          '_build/resume/lexicon.html': '_src/jade/resume.jade'
           '_build/template.html': '_src/jade/template.jade'
       release:
         options:
@@ -70,8 +71,9 @@ module.exports = (grunt) ->
           'index.html': '_src/jade/index.jade'
           'resume.html': '_src/jade/resume.jade'
           'resume/full.html': '_src/jade/resume.jade'
-          'resume/cover.html': '_src/jade/resume.jade'
-          'resume/summarized.html': '_src/jade/resume.jade'
+          'resume/resume/cover.html': '_src/jade/resume.jade'
+          'resume/resume/summarized.html': '_src/jade/resume.jade'
+          'resume/resume/lexicon.html': '_src/jade/resume.jade'
           'template.html': '_src/jade/template.jade'
 
 

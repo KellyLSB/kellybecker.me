@@ -1,9 +1,9 @@
 ---
   class: experience
   title:
-    full: Work Experience
-    summarized: Job Summary
-    lexicon: Job Summary
+    full!: Work Experience
+    summarized!: Job Summary
+    lexicon!: Job Summary
   list:
     type: experience
     items: include ../jobs/*.yaml

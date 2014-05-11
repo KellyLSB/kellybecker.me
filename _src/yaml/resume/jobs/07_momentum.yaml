@@ -47,9 +47,9 @@
       # 	development: true
       # 	release: false
       body:
-        full: |
+        full!: |
           TODO!
-        summarized: |
+        summarized!: |
           At Momentum I was responsible for the full stack; in fact we all were. By full stack I mean HTML, CSS, PSD 2 HTML and CSS, Javascript, PHP and the servers themselves.
 
           As a team we developed the [EvolutionSDK](http://github.com/EvolutionSDK) framework to power our platform. My main contributions; though there were many others as well were: The LHTML Bundle stacks and tags, The SQL Bundle and the Resources Bundle.

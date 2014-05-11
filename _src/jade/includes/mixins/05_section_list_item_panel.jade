@@ -8,4 +8,13 @@ mixin section-list-item-panel(item, float_right)
 
   .panel(class=panel_class.unique())
     h4= item.title
-    block
+
+    if block
+      block
+    else
+      if item['cloud']
+        each c, n in item.cloud
+          span(class=c)= n
+
+      if item['body']
+        != item.body.markdown()

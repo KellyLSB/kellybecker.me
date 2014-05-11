@@ -34,7 +34,7 @@
     Location: Lake Merrit, Oakland, CA
     Details:
       body:
-        full: |
+        full!: |
           I had first been introduced to Tioki back when I was working for momentum in 2011. We had Brian and Mandella over for dinner and at that point I knew I would be working for them.
 
           They flew me out to Oakland for a hack-a-thon in July on 2012. They knew I did not know ruby and having just landed back in Denver from an interview in San Francisco; I did the crazy thing anyone would do. I hopped immediately back on a plane. During the flight I studied up on Ruby, did the Ruby Koans and by the end of the flight I had completed a Rails blog complete with user authentication, user comments and basic moderation.
@@ -52,7 +52,7 @@
           Unfortunately in early January we were running out of funds and they had to cut everyone's pay. I had to leave as I could no longer afford me housing expenses; so we parted ways.
 
           I did my best to help them with the time I had from my new job, but they were slowly tanking. They closed up shop later that year.
-        summarized: |
+        summarized!: |
           Tioki hired me on to help them optimize their Rails application and remove as much technical debt as possible, while getting as many features implemented as possible before Imagine K-12 Demo Day.
 
           We worked like dogs 10 hours a day, 6 days a week to try and reach this goal. I helped with the migration off Heroku and onto EC2 using [Rubber](http://github.com/wr0ngway/rubber); a plugin for Capistrano. This tool essentially combines the ideaologies of Capistrano with full server bootup and provisioning.

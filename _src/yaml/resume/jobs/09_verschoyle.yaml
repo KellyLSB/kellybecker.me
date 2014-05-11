@@ -24,9 +24,9 @@
 
     Details:
       body:
-        full: |
+        full!: |
           TODO
-        summarized: |
+        summarized!: |
           At Verschoyle I essentially was an on-call contactor. If something neded done NOW! I was called. The work was primarily writing Word Press plugins or little features here and there in what at the time was Evolution 2.
 
           I also did some system administration including scaling a MySQL server to a Master-Slave setup on CentOS hosted on the early Rackspace Cloud.

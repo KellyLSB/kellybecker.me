@@ -1,7 +1,7 @@
 mixin page-lexicon(section)
   - list = section['list']
 
-  .row
+  
     .small-6.columns
       if list
         +section-list-item-panel(section)
@@ -11,8 +11,7 @@ mixin page-lexicon(section)
               - var li_class = [item.title.anchorname()]
               - if(item['type']) { li_class.unshift(item.type.anchorname()) }
               - if(item['class']) {       li_class.unshift(item.class.anchorname()) }
-              
-              .
+
                 span= item.title
                 if item['duration'] && item.duration['year']
                   span.year= '(' + item.duration.year + ')'

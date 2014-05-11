@@ -412,12 +412,20 @@ td, th {
 .page-section.experience ol > li h4 .year, .cloud span.used-2:not(.heading), .page-section.experience ul > li .info.panel.float-right span.used-2:not(.heading), .page-section.experience ul > li .info.technologies span.used-2:not(.heading), .page-section.experience ul > li .info.cloud span.used-2:not(.heading),
 .page-section.experience ol > li .info.panel.float-right span.used-2:not(.heading),
 .page-section.experience ol > li .info.technologies span.used-2:not(.heading),
-.page-section.experience ol > li .info.cloud span.used-2:not(.heading), .cloud a.used-2:not(.heading), .page-section.experience ul > li .info.panel.float-right a.used-2:not(.heading), .page-section.experience ul > li .info.technologies a.used-2:not(.heading), .page-section.experience ul > li .info.cloud a.used-2:not(.heading),
+.page-section.experience ol > li .info.cloud span.used-2:not(.heading), .cloud span.rank-50:not(.heading), .page-section.experience ul > li .info.panel.float-right span.rank-50:not(.heading), .page-section.experience ul > li .info.technologies span.rank-50:not(.heading), .page-section.experience ul > li .info.cloud span.rank-50:not(.heading),
+.page-section.experience ol > li .info.panel.float-right span.rank-50:not(.heading),
+.page-section.experience ol > li .info.technologies span.rank-50:not(.heading),
+.page-section.experience ol > li .info.cloud span.rank-50:not(.heading), .cloud a.used-2:not(.heading), .page-section.experience ul > li .info.panel.float-right a.used-2:not(.heading), .page-section.experience ul > li .info.technologies a.used-2:not(.heading), .page-section.experience ul > li .info.cloud a.used-2:not(.heading),
 .page-section.experience ol > li .info.panel.float-right a.used-2:not(.heading),
 .page-section.experience ol > li .info.technologies a.used-2:not(.heading),
-.page-section.experience ol > li .info.cloud a.used-2:not(.heading),
+.page-section.experience ol > li .info.cloud a.used-2:not(.heading), .cloud a.rank-50:not(.heading), .page-section.experience ul > li .info.panel.float-right a.rank-50:not(.heading), .page-section.experience ul > li .info.technologies a.rank-50:not(.heading), .page-section.experience ul > li .info.cloud a.rank-50:not(.heading),
+.page-section.experience ol > li .info.panel.float-right a.rank-50:not(.heading),
+.page-section.experience ol > li .info.technologies a.rank-50:not(.heading),
+.page-section.experience ol > li .info.cloud a.rank-50:not(.heading),
 .technologies span.used-2:not(.heading),
-.technologies a.used-2:not(.heading) {
+.technologies span.rank-50:not(.heading),
+.technologies a.used-2:not(.heading),
+.technologies a.rank-50:not(.heading) {
   font-weight: 400;
 }
 /* line 21, ../../../_src/scss/includes/layout/_ubuntu.scss */
@@ -430,11 +438,47 @@ td, th {
 .page-section.experience ol > li .info.technologies a:not(.heading),
 .page-section.experience ol > li .info.cloud a:not(.heading),
 .technologies span:not(.heading),
-.technologies a:not(.heading), .cloud span.used-0:not(.heading), .cloud a.used-0:not(.heading),
+.technologies a:not(.heading), .cloud span.used-0:not(.heading), .page-section.experience ul > li .info.panel.float-right span.used-0:not(.heading), .page-section.experience ul > li .info.technologies span.used-0:not(.heading), .page-section.experience ul > li .info.cloud span.used-0:not(.heading),
+.page-section.experience ol > li .info.panel.float-right span.used-0:not(.heading),
+.page-section.experience ol > li .info.technologies span.used-0:not(.heading),
+.page-section.experience ol > li .info.cloud span.used-0:not(.heading), .cloud span.rank-0:not(.heading), .page-section.experience ul > li .info.panel.float-right span.rank-0:not(.heading), .page-section.experience ul > li .info.technologies span.rank-0:not(.heading), .page-section.experience ul > li .info.cloud span.rank-0:not(.heading),
+.page-section.experience ol > li .info.panel.float-right span.rank-0:not(.heading),
+.page-section.experience ol > li .info.technologies span.rank-0:not(.heading),
+.page-section.experience ol > li .info.cloud span.rank-0:not(.heading), .cloud span.rank-00:not(.heading), .page-section.experience ul > li .info.panel.float-right span.rank-00:not(.heading), .page-section.experience ul > li .info.technologies span.rank-00:not(.heading), .page-section.experience ul > li .info.cloud span.rank-00:not(.heading),
+.page-section.experience ol > li .info.panel.float-right span.rank-00:not(.heading),
+.page-section.experience ol > li .info.technologies span.rank-00:not(.heading),
+.page-section.experience ol > li .info.cloud span.rank-00:not(.heading), .cloud a.used-0:not(.heading), .page-section.experience ul > li .info.panel.float-right a.used-0:not(.heading), .page-section.experience ul > li .info.technologies a.used-0:not(.heading), .page-section.experience ul > li .info.cloud a.used-0:not(.heading),
+.page-section.experience ol > li .info.panel.float-right a.used-0:not(.heading),
+.page-section.experience ol > li .info.technologies a.used-0:not(.heading),
+.page-section.experience ol > li .info.cloud a.used-0:not(.heading), .cloud a.rank-0:not(.heading), .page-section.experience ul > li .info.panel.float-right a.rank-0:not(.heading), .page-section.experience ul > li .info.technologies a.rank-0:not(.heading), .page-section.experience ul > li .info.cloud a.rank-0:not(.heading),
+.page-section.experience ol > li .info.panel.float-right a.rank-0:not(.heading),
+.page-section.experience ol > li .info.technologies a.rank-0:not(.heading),
+.page-section.experience ol > li .info.cloud a.rank-0:not(.heading), .cloud a.rank-00:not(.heading), .page-section.experience ul > li .info.panel.float-right a.rank-00:not(.heading), .page-section.experience ul > li .info.technologies a.rank-00:not(.heading), .page-section.experience ul > li .info.cloud a.rank-00:not(.heading),
+.page-section.experience ol > li .info.panel.float-right a.rank-00:not(.heading),
+.page-section.experience ol > li .info.technologies a.rank-00:not(.heading),
+.page-section.experience ol > li .info.cloud a.rank-00:not(.heading),
 .technologies span.used-0:not(.heading),
-.technologies a.used-0:not(.heading), .cloud span.used-1:not(.heading), .cloud a.used-1:not(.heading),
+.technologies span.rank-0:not(.heading),
+.technologies span.rank-00:not(.heading),
+.technologies a.used-0:not(.heading),
+.technologies a.rank-0:not(.heading),
+.technologies a.rank-00:not(.heading), .cloud span.used-1:not(.heading), .page-section.experience ul > li .info.panel.float-right span.used-1:not(.heading), .page-section.experience ul > li .info.technologies span.used-1:not(.heading), .page-section.experience ul > li .info.cloud span.used-1:not(.heading),
+.page-section.experience ol > li .info.panel.float-right span.used-1:not(.heading),
+.page-section.experience ol > li .info.technologies span.used-1:not(.heading),
+.page-section.experience ol > li .info.cloud span.used-1:not(.heading), .cloud span.rank-25:not(.heading), .page-section.experience ul > li .info.panel.float-right span.rank-25:not(.heading), .page-section.experience ul > li .info.technologies span.rank-25:not(.heading), .page-section.experience ul > li .info.cloud span.rank-25:not(.heading),
+.page-section.experience ol > li .info.panel.float-right span.rank-25:not(.heading),
+.page-section.experience ol > li .info.technologies span.rank-25:not(.heading),
+.page-section.experience ol > li .info.cloud span.rank-25:not(.heading), .cloud a.used-1:not(.heading), .page-section.experience ul > li .info.panel.float-right a.used-1:not(.heading), .page-section.experience ul > li .info.technologies a.used-1:not(.heading), .page-section.experience ul > li .info.cloud a.used-1:not(.heading),
+.page-section.experience ol > li .info.panel.float-right a.used-1:not(.heading),
+.page-section.experience ol > li .info.technologies a.used-1:not(.heading),
+.page-section.experience ol > li .info.cloud a.used-1:not(.heading), .cloud a.rank-25:not(.heading), .page-section.experience ul > li .info.panel.float-right a.rank-25:not(.heading), .page-section.experience ul > li .info.technologies a.rank-25:not(.heading), .page-section.experience ul > li .info.cloud a.rank-25:not(.heading),
+.page-section.experience ol > li .info.panel.float-right a.rank-25:not(.heading),
+.page-section.experience ol > li .info.technologies a.rank-25:not(.heading),
+.page-section.experience ol > li .info.cloud a.rank-25:not(.heading),
 .technologies span.used-1:not(.heading),
-.technologies a.used-1:not(.heading) {
+.technologies span.rank-25:not(.heading),
+.technologies a.used-1:not(.heading),
+.technologies a.rank-25:not(.heading) {
   font-weight: 300;
 }
 /* line 26, ../../../_src/scss/includes/layout/_ubuntu.scss */
@@ -451,12 +495,20 @@ td, th {
 .technologies a.heading, .cloud span.used-3:not(.heading), .page-section.experience ul > li .info.panel.float-right span.used-3:not(.heading), .page-section.experience ul > li .info.technologies span.used-3:not(.heading), .page-section.experience ul > li .info.cloud span.used-3:not(.heading),
 .page-section.experience ol > li .info.panel.float-right span.used-3:not(.heading),
 .page-section.experience ol > li .info.technologies span.used-3:not(.heading),
-.page-section.experience ol > li .info.cloud span.used-3:not(.heading), .cloud a.used-3:not(.heading), .page-section.experience ul > li .info.panel.float-right a.used-3:not(.heading), .page-section.experience ul > li .info.technologies a.used-3:not(.heading), .page-section.experience ul > li .info.cloud a.used-3:not(.heading),
+.page-section.experience ol > li .info.cloud span.used-3:not(.heading), .cloud span.rank-75:not(.heading), .page-section.experience ul > li .info.panel.float-right span.rank-75:not(.heading), .page-section.experience ul > li .info.technologies span.rank-75:not(.heading), .page-section.experience ul > li .info.cloud span.rank-75:not(.heading),
+.page-section.experience ol > li .info.panel.float-right span.rank-75:not(.heading),
+.page-section.experience ol > li .info.technologies span.rank-75:not(.heading),
+.page-section.experience ol > li .info.cloud span.rank-75:not(.heading), .cloud a.used-3:not(.heading), .page-section.experience ul > li .info.panel.float-right a.used-3:not(.heading), .page-section.experience ul > li .info.technologies a.used-3:not(.heading), .page-section.experience ul > li .info.cloud a.used-3:not(.heading),
 .page-section.experience ol > li .info.panel.float-right a.used-3:not(.heading),
 .page-section.experience ol > li .info.technologies a.used-3:not(.heading),
-.page-section.experience ol > li .info.cloud a.used-3:not(.heading),
+.page-section.experience ol > li .info.cloud a.used-3:not(.heading), .cloud a.rank-75:not(.heading), .page-section.experience ul > li .info.panel.float-right a.rank-75:not(.heading), .page-section.experience ul > li .info.technologies a.rank-75:not(.heading), .page-section.experience ul > li .info.cloud a.rank-75:not(.heading),
+.page-section.experience ol > li .info.panel.float-right a.rank-75:not(.heading),
+.page-section.experience ol > li .info.technologies a.rank-75:not(.heading),
+.page-section.experience ol > li .info.cloud a.rank-75:not(.heading),
 .technologies span.used-3:not(.heading),
-.technologies a.used-3:not(.heading) {
+.technologies span.rank-75:not(.heading),
+.technologies a.used-3:not(.heading),
+.technologies a.rank-75:not(.heading) {
   font-weight: 500;
 }
 /* line 31, ../../../_src/scss/includes/layout/_ubuntu.scss */
@@ -466,17 +518,25 @@ td, th {
 .page-section.experience ol > li .info.cloud span.owned:not(.heading), .cloud span.used-4:not(.heading), .page-section.experience ul > li .info.panel.float-right span.used-4:not(.heading), .page-section.experience ul > li .info.technologies span.used-4:not(.heading), .page-section.experience ul > li .info.cloud span.used-4:not(.heading),
 .page-section.experience ol > li .info.panel.float-right span.used-4:not(.heading),
 .page-section.experience ol > li .info.technologies span.used-4:not(.heading),
-.page-section.experience ol > li .info.cloud span.used-4:not(.heading), .cloud a.owned:not(.heading), .page-section.experience ul > li .info.panel.float-right a.owned:not(.heading), .page-section.experience ul > li .info.technologies a.owned:not(.heading), .page-section.experience ul > li .info.cloud a.owned:not(.heading),
+.page-section.experience ol > li .info.cloud span.used-4:not(.heading), .cloud span.rank-99:not(.heading), .page-section.experience ul > li .info.panel.float-right span.rank-99:not(.heading), .page-section.experience ul > li .info.technologies span.rank-99:not(.heading), .page-section.experience ul > li .info.cloud span.rank-99:not(.heading),
+.page-section.experience ol > li .info.panel.float-right span.rank-99:not(.heading),
+.page-section.experience ol > li .info.technologies span.rank-99:not(.heading),
+.page-section.experience ol > li .info.cloud span.rank-99:not(.heading), .cloud a.owned:not(.heading), .page-section.experience ul > li .info.panel.float-right a.owned:not(.heading), .page-section.experience ul > li .info.technologies a.owned:not(.heading), .page-section.experience ul > li .info.cloud a.owned:not(.heading),
 .page-section.experience ol > li .info.panel.float-right a.owned:not(.heading),
 .page-section.experience ol > li .info.technologies a.owned:not(.heading),
 .page-section.experience ol > li .info.cloud a.owned:not(.heading), .cloud a.used-4:not(.heading), .page-section.experience ul > li .info.panel.float-right a.used-4:not(.heading), .page-section.experience ul > li .info.technologies a.used-4:not(.heading), .page-section.experience ul > li .info.cloud a.used-4:not(.heading),
 .page-section.experience ol > li .info.panel.float-right a.used-4:not(.heading),
 .page-section.experience ol > li .info.technologies a.used-4:not(.heading),
-.page-section.experience ol > li .info.cloud a.used-4:not(.heading),
+.page-section.experience ol > li .info.cloud a.used-4:not(.heading), .cloud a.rank-99:not(.heading), .page-section.experience ul > li .info.panel.float-right a.rank-99:not(.heading), .page-section.experience ul > li .info.technologies a.rank-99:not(.heading), .page-section.experience ul > li .info.cloud a.rank-99:not(.heading),
+.page-section.experience ol > li .info.panel.float-right a.rank-99:not(.heading),
+.page-section.experience ol > li .info.technologies a.rank-99:not(.heading),
+.page-section.experience ol > li .info.cloud a.rank-99:not(.heading),
 .technologies span.owned:not(.heading),
 .technologies span.used-4:not(.heading),
+.technologies span.rank-99:not(.heading),
 .technologies a.owned:not(.heading),
-.technologies a.used-4:not(.heading) {
+.technologies a.used-4:not(.heading),
+.technologies a.rank-99:not(.heading) {
   font-weight: 700;
 }
 
@@ -8502,13 +8562,13 @@ body {
     font-style: italic;
     border: none !important;
   }
-  /* line 12, ../../../_src/scss/includes/layout/_blockquote.scss */
-  blockquote > .quote:first-of-type {
-    content: "\201C";
+  /* line 10, ../../../_src/scss/includes/layout/_blockquote.scss */
+  blockquote:before {
+    content: open-quote;
   }
-  /* line 16, ../../../_src/scss/includes/layout/_blockquote.scss */
-  blockquote > .quote:last-of-type {
-    content: "\201D";
+  /* line 15, ../../../_src/scss/includes/layout/_blockquote.scss */
+  blockquote:after {
+    content: open-quote;
   }
 }
 /* line 1, ../../../_src/scss/includes/layout/_footer.scss */
@@ -8763,63 +8823,103 @@ body {
   *display: inline;
   zoom: 1;
 }
-/* line 52, ../../../_src/scss/includes/resume/_technology_cloud.scss */
+/* line 54, ../../../_src/scss/includes/resume/_technology_cloud.scss */
 .cloud span:not(.heading).used-0, .page-section.experience ul > li .info.panel.float-right span:not(.heading).used-0, .page-section.experience ul > li .info.technologies span:not(.heading).used-0, .page-section.experience ul > li .info.cloud span:not(.heading).used-0,
 .page-section.experience ol > li .info.panel.float-right span:not(.heading).used-0,
 .page-section.experience ol > li .info.technologies span:not(.heading).used-0,
-.page-section.experience ol > li .info.cloud span:not(.heading).used-0, .cloud a:not(.heading).used-0, .page-section.experience ul > li .info.panel.float-right a:not(.heading).used-0, .page-section.experience ul > li .info.technologies a:not(.heading).used-0, .page-section.experience ul > li .info.cloud a:not(.heading).used-0,
+.page-section.experience ol > li .info.cloud span:not(.heading).used-0, .cloud span:not(.heading).rank-0, .page-section.experience ul > li .info.panel.float-right span:not(.heading).rank-0, .page-section.experience ul > li .info.technologies span:not(.heading).rank-0, .page-section.experience ul > li .info.cloud span:not(.heading).rank-0,
+.page-section.experience ol > li .info.panel.float-right span:not(.heading).rank-0,
+.page-section.experience ol > li .info.technologies span:not(.heading).rank-0,
+.page-section.experience ol > li .info.cloud span:not(.heading).rank-0, .cloud span:not(.heading).rank-00, .page-section.experience ul > li .info.panel.float-right span:not(.heading).rank-00, .page-section.experience ul > li .info.technologies span:not(.heading).rank-00, .page-section.experience ul > li .info.cloud span:not(.heading).rank-00,
+.page-section.experience ol > li .info.panel.float-right span:not(.heading).rank-00,
+.page-section.experience ol > li .info.technologies span:not(.heading).rank-00,
+.page-section.experience ol > li .info.cloud span:not(.heading).rank-00, .cloud a:not(.heading).used-0, .page-section.experience ul > li .info.panel.float-right a:not(.heading).used-0, .page-section.experience ul > li .info.technologies a:not(.heading).used-0, .page-section.experience ul > li .info.cloud a:not(.heading).used-0,
 .page-section.experience ol > li .info.panel.float-right a:not(.heading).used-0,
 .page-section.experience ol > li .info.technologies a:not(.heading).used-0,
-.page-section.experience ol > li .info.cloud a:not(.heading).used-0,
+.page-section.experience ol > li .info.cloud a:not(.heading).used-0, .cloud a:not(.heading).rank-0, .page-section.experience ul > li .info.panel.float-right a:not(.heading).rank-0, .page-section.experience ul > li .info.technologies a:not(.heading).rank-0, .page-section.experience ul > li .info.cloud a:not(.heading).rank-0,
+.page-section.experience ol > li .info.panel.float-right a:not(.heading).rank-0,
+.page-section.experience ol > li .info.technologies a:not(.heading).rank-0,
+.page-section.experience ol > li .info.cloud a:not(.heading).rank-0, .cloud a:not(.heading).rank-00, .page-section.experience ul > li .info.panel.float-right a:not(.heading).rank-00, .page-section.experience ul > li .info.technologies a:not(.heading).rank-00, .page-section.experience ul > li .info.cloud a:not(.heading).rank-00,
+.page-section.experience ol > li .info.panel.float-right a:not(.heading).rank-00,
+.page-section.experience ol > li .info.technologies a:not(.heading).rank-00,
+.page-section.experience ol > li .info.cloud a:not(.heading).rank-00,
 .technologies span:not(.heading).used-0,
-.technologies a:not(.heading).used-0 {
+.technologies span:not(.heading).rank-0,
+.technologies span:not(.heading).rank-00,
+.technologies a:not(.heading).used-0,
+.technologies a:not(.heading).rank-0,
+.technologies a:not(.heading).rank-00 {
   font-size: 0.78em;
   color: red;
 }
-/* line 58, ../../../_src/scss/includes/resume/_technology_cloud.scss */
+/* line 61, ../../../_src/scss/includes/resume/_technology_cloud.scss */
 .cloud span:not(.heading).used-1, .page-section.experience ul > li .info.panel.float-right span:not(.heading).used-1, .page-section.experience ul > li .info.technologies span:not(.heading).used-1, .page-section.experience ul > li .info.cloud span:not(.heading).used-1,
 .page-section.experience ol > li .info.panel.float-right span:not(.heading).used-1,
 .page-section.experience ol > li .info.technologies span:not(.heading).used-1,
-.page-section.experience ol > li .info.cloud span:not(.heading).used-1, .cloud a:not(.heading).used-1, .page-section.experience ul > li .info.panel.float-right a:not(.heading).used-1, .page-section.experience ul > li .info.technologies a:not(.heading).used-1, .page-section.experience ul > li .info.cloud a:not(.heading).used-1,
+.page-section.experience ol > li .info.cloud span:not(.heading).used-1, .cloud span:not(.heading).rank-25, .page-section.experience ul > li .info.panel.float-right span:not(.heading).rank-25, .page-section.experience ul > li .info.technologies span:not(.heading).rank-25, .page-section.experience ul > li .info.cloud span:not(.heading).rank-25,
+.page-section.experience ol > li .info.panel.float-right span:not(.heading).rank-25,
+.page-section.experience ol > li .info.technologies span:not(.heading).rank-25,
+.page-section.experience ol > li .info.cloud span:not(.heading).rank-25, .cloud a:not(.heading).used-1, .page-section.experience ul > li .info.panel.float-right a:not(.heading).used-1, .page-section.experience ul > li .info.technologies a:not(.heading).used-1, .page-section.experience ul > li .info.cloud a:not(.heading).used-1,
 .page-section.experience ol > li .info.panel.float-right a:not(.heading).used-1,
 .page-section.experience ol > li .info.technologies a:not(.heading).used-1,
-.page-section.experience ol > li .info.cloud a:not(.heading).used-1,
+.page-section.experience ol > li .info.cloud a:not(.heading).used-1, .cloud a:not(.heading).rank-25, .page-section.experience ul > li .info.panel.float-right a:not(.heading).rank-25, .page-section.experience ul > li .info.technologies a:not(.heading).rank-25, .page-section.experience ul > li .info.cloud a:not(.heading).rank-25,
+.page-section.experience ol > li .info.panel.float-right a:not(.heading).rank-25,
+.page-section.experience ol > li .info.technologies a:not(.heading).rank-25,
+.page-section.experience ol > li .info.cloud a:not(.heading).rank-25,
 .technologies span:not(.heading).used-1,
-.technologies a:not(.heading).used-1 {
+.technologies span:not(.heading).rank-25,
+.technologies a:not(.heading).used-1,
+.technologies a:not(.heading).rank-25 {
   font-size: 0.95em;
   color: grey;
 }
-/* line 68, ../../../_src/scss/includes/resume/_technology_cloud.scss */
+/* line 73, ../../../_src/scss/includes/resume/_technology_cloud.scss */
 .cloud span:not(.heading).used-3, .page-section.experience ul > li .info.panel.float-right span:not(.heading).used-3, .page-section.experience ul > li .info.technologies span:not(.heading).used-3, .page-section.experience ul > li .info.cloud span:not(.heading).used-3,
 .page-section.experience ol > li .info.panel.float-right span:not(.heading).used-3,
 .page-section.experience ol > li .info.technologies span:not(.heading).used-3,
-.page-section.experience ol > li .info.cloud span:not(.heading).used-3, .cloud a:not(.heading).used-3, .page-section.experience ul > li .info.panel.float-right a:not(.heading).used-3, .page-section.experience ul > li .info.technologies a:not(.heading).used-3, .page-section.experience ul > li .info.cloud a:not(.heading).used-3,
+.page-section.experience ol > li .info.cloud span:not(.heading).used-3, .cloud span:not(.heading).rank-75, .page-section.experience ul > li .info.panel.float-right span:not(.heading).rank-75, .page-section.experience ul > li .info.technologies span:not(.heading).rank-75, .page-section.experience ul > li .info.cloud span:not(.heading).rank-75,
+.page-section.experience ol > li .info.panel.float-right span:not(.heading).rank-75,
+.page-section.experience ol > li .info.technologies span:not(.heading).rank-75,
+.page-section.experience ol > li .info.cloud span:not(.heading).rank-75, .cloud a:not(.heading).used-3, .page-section.experience ul > li .info.panel.float-right a:not(.heading).used-3, .page-section.experience ul > li .info.technologies a:not(.heading).used-3, .page-section.experience ul > li .info.cloud a:not(.heading).used-3,
 .page-section.experience ol > li .info.panel.float-right a:not(.heading).used-3,
 .page-section.experience ol > li .info.technologies a:not(.heading).used-3,
-.page-section.experience ol > li .info.cloud a:not(.heading).used-3,
+.page-section.experience ol > li .info.cloud a:not(.heading).used-3, .cloud a:not(.heading).rank-75, .page-section.experience ul > li .info.panel.float-right a:not(.heading).rank-75, .page-section.experience ul > li .info.technologies a:not(.heading).rank-75, .page-section.experience ul > li .info.cloud a:not(.heading).rank-75,
+.page-section.experience ol > li .info.panel.float-right a:not(.heading).rank-75,
+.page-section.experience ol > li .info.technologies a:not(.heading).rank-75,
+.page-section.experience ol > li .info.cloud a:not(.heading).rank-75,
 .technologies span:not(.heading).used-3,
-.technologies a:not(.heading).used-3 {
+.technologies span:not(.heading).rank-75,
+.technologies a:not(.heading).used-3,
+.technologies a:not(.heading).rank-75 {
   font-size: 1em;
   color: blue;
 }
-/* line 74, ../../../_src/scss/includes/resume/_technology_cloud.scss */
+/* line 81, ../../../_src/scss/includes/resume/_technology_cloud.scss */
 .cloud span:not(.heading).owned, .page-section.experience ul > li .info.panel.float-right span:not(.heading).owned, .page-section.experience ul > li .info.technologies span:not(.heading).owned, .page-section.experience ul > li .info.cloud span:not(.heading).owned,
 .page-section.experience ol > li .info.panel.float-right span:not(.heading).owned,
 .page-section.experience ol > li .info.technologies span:not(.heading).owned,
 .page-section.experience ol > li .info.cloud span:not(.heading).owned, .cloud span:not(.heading).used-4, .page-section.experience ul > li .info.panel.float-right span:not(.heading).used-4, .page-section.experience ul > li .info.technologies span:not(.heading).used-4, .page-section.experience ul > li .info.cloud span:not(.heading).used-4,
 .page-section.experience ol > li .info.panel.float-right span:not(.heading).used-4,
 .page-section.experience ol > li .info.technologies span:not(.heading).used-4,
-.page-section.experience ol > li .info.cloud span:not(.heading).used-4, .cloud a:not(.heading).owned, .page-section.experience ul > li .info.panel.float-right a:not(.heading).owned, .page-section.experience ul > li .info.technologies a:not(.heading).owned, .page-section.experience ul > li .info.cloud a:not(.heading).owned,
+.page-section.experience ol > li .info.cloud span:not(.heading).used-4, .cloud span:not(.heading).rank-99, .page-section.experience ul > li .info.panel.float-right span:not(.heading).rank-99, .page-section.experience ul > li .info.technologies span:not(.heading).rank-99, .page-section.experience ul > li .info.cloud span:not(.heading).rank-99,
+.page-section.experience ol > li .info.panel.float-right span:not(.heading).rank-99,
+.page-section.experience ol > li .info.technologies span:not(.heading).rank-99,
+.page-section.experience ol > li .info.cloud span:not(.heading).rank-99, .cloud a:not(.heading).owned, .page-section.experience ul > li .info.panel.float-right a:not(.heading).owned, .page-section.experience ul > li .info.technologies a:not(.heading).owned, .page-section.experience ul > li .info.cloud a:not(.heading).owned,
 .page-section.experience ol > li .info.panel.float-right a:not(.heading).owned,
 .page-section.experience ol > li .info.technologies a:not(.heading).owned,
 .page-section.experience ol > li .info.cloud a:not(.heading).owned, .cloud a:not(.heading).used-4, .page-section.experience ul > li .info.panel.float-right a:not(.heading).used-4, .page-section.experience ul > li .info.technologies a:not(.heading).used-4, .page-section.experience ul > li .info.cloud a:not(.heading).used-4,
 .page-section.experience ol > li .info.panel.float-right a:not(.heading).used-4,
 .page-section.experience ol > li .info.technologies a:not(.heading).used-4,
-.page-section.experience ol > li .info.cloud a:not(.heading).used-4,
+.page-section.experience ol > li .info.cloud a:not(.heading).used-4, .cloud a:not(.heading).rank-99, .page-section.experience ul > li .info.panel.float-right a:not(.heading).rank-99, .page-section.experience ul > li .info.technologies a:not(.heading).rank-99, .page-section.experience ul > li .info.cloud a:not(.heading).rank-99,
+.page-section.experience ol > li .info.panel.float-right a:not(.heading).rank-99,
+.page-section.experience ol > li .info.technologies a:not(.heading).rank-99,
+.page-section.experience ol > li .info.cloud a:not(.heading).rank-99,
 .technologies span:not(.heading).owned,
 .technologies span:not(.heading).used-4,
+.technologies span:not(.heading).rank-99,
 .technologies a:not(.heading).owned,
-.technologies a:not(.heading).used-4 {
+.technologies a:not(.heading).used-4,
+.technologies a:not(.heading).rank-99 {
   font-size: 1.2em;
   color: violet;
 }
