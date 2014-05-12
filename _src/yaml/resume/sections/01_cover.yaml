@@ -1,6 +1,7 @@
 ---
-  only_format!: ['full', 'cover']
+  only!: ['full', 'cover']
   title: Cover Letter
+  class: []
   body: I am a hyperactive software genius!
       Over the past 6 years in the profession, I have had the chance to work on everything from wiring cable at layer 1 all the way up to building applications at layer 7. While I do claim the title of &#34;genius&#34; I do not use the default interpretation. In my life experience I have noticed many believe genius&#39; are smart while in fact it is about intelligence. I cannot claim to know everything but I will claim that I can learn anything at a highly accelerated rate.
       Growing up with untreated ADHD caused me to develop some coping mechanisms; software was a haven from the overwhelming world around me. This flaw of mine in the everyday world has since turned into a giant merit in the software industry. I always strive to architect, build, provision, code and deploy in the most optimal way within the bounds of my knowledge. And physics, of course. Though if I can do better and there is time I always try to build the best and eliminate technical debt on every layer.

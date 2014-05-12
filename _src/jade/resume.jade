@@ -4,6 +4,7 @@ extend includes/layout
 //- Include Mixins
 include includes/mixins/*
 
+
 block pageTitle
   | Software Engineer
 
@@ -13,23 +14,20 @@ block pageHeader
 
 
 block pageContent
-  if pageData.format == 'lexicon'
-    +page-section('Lexicon')(class='lexicon')
-      h3 Resume Lexicon
-
+  if config.format == 'lexicon'
+    +page-section("Resume Lexicon")(class='lexicon')
+      h3= title
       .row
-      
-        each section in pageData.sections
-          +page-lexicon(section)
+        each section in sections
+          +section-list-lexicon(section)
+
   else
-    each section in pageData.sections
+    each section in sections
       +page-section(section.title)(class=section.class)
         h3= section.title
 
-        //- Section List
         if section['list']
           +section-list(section.list)
 
-        //- Render Body as Markdown
         if section['body']
           != section.body.markdown()

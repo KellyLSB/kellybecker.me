@@ -12,7 +12,7 @@ html.no-js(lang='en')
         | Unicorn Wrangler
 
     //- Load Compiled CSS From Compass and Foundation
-    link(rel='stylesheet', href=assetPath + '/css/app.css')
+    link(rel='stylesheet', href=config.assetDir + '/css/app.css')
     block pageStyle
 
   //- Default to the Splash Style
@@ -40,5 +40,5 @@ html.no-js(lang='en')
             | kbecker@kellybecker.me
 
     //- Page Javascript
-    script(src=assetPath + '/js/app.js')
+    script(src=config.assetDir + '/js/app.js')
     block pageJs

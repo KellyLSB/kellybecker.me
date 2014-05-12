@@ -1,6 +1,6 @@
 ---
-  class: technologies
   title: Technology Clouds
+  class: ['technologies']
   list:
     type: panels
     items:

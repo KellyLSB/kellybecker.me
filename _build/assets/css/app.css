@@ -409,7 +409,7 @@ td, th {
 }
 /* line 16, ../../../_src/scss/includes/layout/_ubuntu.scss */
 .ubuntu, .ubuntu.normal, .page-section.experience ul > li h4 .year,
-.page-section.experience ol > li h4 .year, .cloud span.used-2:not(.heading), .page-section.experience ul > li .info.panel.float-right span.used-2:not(.heading), .page-section.experience ul > li .info.technologies span.used-2:not(.heading), .page-section.experience ul > li .info.cloud span.used-2:not(.heading),
+.page-section.experience ol > li h4 .year, .page-section.lexicon .panel.experience-lexicon .info span.year, .cloud span.used-2:not(.heading), .page-section.experience ul > li .info.panel.float-right span.used-2:not(.heading), .page-section.experience ul > li .info.technologies span.used-2:not(.heading), .page-section.experience ul > li .info.cloud span.used-2:not(.heading),
 .page-section.experience ol > li .info.panel.float-right span.used-2:not(.heading),
 .page-section.experience ol > li .info.technologies span.used-2:not(.heading),
 .page-section.experience ol > li .info.cloud span.used-2:not(.heading), .cloud span.rank-50:not(.heading), .page-section.experience ul > li .info.panel.float-right span.rank-50:not(.heading), .page-section.experience ul > li .info.technologies span.rank-50:not(.heading), .page-section.experience ul > li .info.cloud span.rank-50:not(.heading),
@@ -430,7 +430,7 @@ td, th {
 }
 /* line 21, ../../../_src/scss/includes/layout/_ubuntu.scss */
 .ubuntu.light, .page-header .kelly-name-title, .page-header .kelly-name-title > h1, .page-header .kelly-name-title > h5, .page-header.social .kelly-networking > .info > .value, .page-footer, .page-section.experience ul > li h4,
-.page-section.experience ol > li h4, .cloud span:not(.heading), .page-section.experience ul > li .info.panel.float-right span:not(.heading), .page-section.experience ul > li .info.technologies span:not(.heading), .page-section.experience ul > li .info.cloud span:not(.heading),
+.page-section.experience ol > li h4, .page-section.lexicon .panel.experience-lexicon .info span.heading, .cloud span:not(.heading), .page-section.experience ul > li .info.panel.float-right span:not(.heading), .page-section.experience ul > li .info.technologies span:not(.heading), .page-section.experience ul > li .info.cloud span:not(.heading),
 .page-section.experience ol > li .info.panel.float-right span:not(.heading),
 .page-section.experience ol > li .info.technologies span:not(.heading),
 .page-section.experience ol > li .info.cloud span:not(.heading), .cloud a:not(.heading), .page-section.experience ul > li .info.panel.float-right a:not(.heading), .page-section.experience ul > li .info.technologies a:not(.heading), .page-section.experience ul > li .info.cloud a:not(.heading),
@@ -8768,6 +8768,37 @@ body {
   float: left;
 }
 
+/* line 160, ../../../_src/scss/includes/resume/_experience.scss */
+.page-section.lexicon .panel.experience-lexicon {
+  margin: 10px 0px !important;
+}
+/* line 163, ../../../_src/scss/includes/resume/_experience.scss */
+.page-section.lexicon .panel.experience-lexicon .info {
+  display: block;
+  margin: 17px auto;
+}
+/* line 167, ../../../_src/scss/includes/resume/_experience.scss */
+.page-section.lexicon .panel.experience-lexicon .info span {
+  display: block;
+  margin: 10px auto;
+}
+/* line 171, ../../../_src/scss/includes/resume/_experience.scss */
+.page-section.lexicon .panel.experience-lexicon .info span.heading {
+  display: block;
+  line-height: 15px;
+  border-bottom: solid 1px #BBB;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+/* line 181, ../../../_src/scss/includes/resume/_experience.scss */
+.page-section.lexicon .panel.experience-lexicon .info span.focus {
+  color: #EE82EE;
+}
+/* line 186, ../../../_src/scss/includes/resume/_experience.scss */
+.page-section.lexicon .panel.experience-lexicon .info span.year {
+  float: right;
+}
+
 /* line 2, ../../../_src/scss/includes/resume/_technology_cloud.scss */
 .cloud, .page-section.experience ul > li .info.panel.float-right, .page-section.experience ul > li .info.technologies, .page-section.experience ul > li .info.cloud,
 .page-section.experience ol > li .info.panel.float-right,
@@ -8922,4 +8953,15 @@ body {
 .technologies a:not(.heading).rank-99 {
   font-size: 1.2em;
   color: violet;
+}
+
+/* line 90, ../../../_src/scss/includes/resume/_technology_cloud.scss */
+.page-section.lexicon .panel.cloud, .page-section.lexicon .page-section.experience ul > li .panel.info.float-right, .page-section.experience ul > li .page-section.lexicon .panel.info.float-right, .page-section.lexicon .page-section.experience ul > li .panel.info.technologies, .page-section.experience ul > li .page-section.lexicon .panel.info.technologies, .page-section.lexicon .page-section.experience ul > li .panel.info.cloud, .page-section.experience ul > li .page-section.lexicon .panel.info.cloud,
+.page-section.lexicon .page-section.experience ol > li .panel.info.float-right,
+.page-section.experience ol > li .page-section.lexicon .panel.info.float-right,
+.page-section.lexicon .page-section.experience ol > li .panel.info.technologies,
+.page-section.experience ol > li .page-section.lexicon .panel.info.technologies,
+.page-section.lexicon .page-section.experience ol > li .panel.info.cloud,
+.page-section.experience ol > li .page-section.lexicon .panel.info.cloud {
+  margin: 10px 0px !important;
 }

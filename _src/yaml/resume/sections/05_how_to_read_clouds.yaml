@@ -1,6 +1,6 @@
 ---
-  except_format!: lexicon
-  class: how-to-read-technology-clouds
+  except!: lexicon
+  class: ['how-to-read-technology-clouds']
   title: How To Read Technology Clouds
 
   body: |

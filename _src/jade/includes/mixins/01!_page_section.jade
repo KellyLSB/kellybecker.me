@@ -1,5 +1,8 @@
 mixin page-section(title)
-  section.page-section(class=title.anchorname())&attributes(attributes)
+
+  - section_class = ['page-section', title.anchorname()].unique()
+
+  section(class=section_class)&attributes(attributes)
     a(name=title.anchorname('page-section'))
     .row: .small-12.columns
       .panel.print-no-border

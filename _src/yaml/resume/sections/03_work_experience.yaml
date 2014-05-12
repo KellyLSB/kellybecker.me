@@ -1,5 +1,5 @@
 ---
-  class: experience
+  class: ['experience']
   title:
     full!: Work Experience
     summarized!: Job Summary

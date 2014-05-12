@@ -12,6 +12,7 @@
     "js-yaml": "^3.0.2",
     "glob": "^3.2.9",
     "marked": "^0.3.2",
-    "highlight.js": "^8.0.0"
+    "highlight.js": "^8.0.0",
+    "jaded": "0.0.0"
   }
 }

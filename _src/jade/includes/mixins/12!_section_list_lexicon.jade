@@ -1,0 +1,36 @@
+mixin section-list-lexicon(section)
+  if section.list
+    .small-6.columns
+
+      - if(section.class.indexOf('technologies') > -1) { panel_class = 'cloud' }
+      - else { panel_class = 'experience-lexicon' }
+
+      +section-list-item-panel(section)(class=panel_class)
+        each item in section.list.items
+          if item.type == 'Work Experience'
+
+            - var li_class = [item.title.anchorname()]
+            - if(item.type)  { li_class.unshift(item.type.anchorname())  }
+            - if(item.class) { li_class.unshift(item.class.anchorname()) }
+
+            div.info
+              span.heading= item.title
+              if item.duration && item.duration.year
+                span.year= '(' + item.duration.year + ')'
+
+              if item.info.Title
+                span.title= item.info.Title
+
+              if item.info.Titles
+                each value in item.info.Titles.values
+                  span.title= value
+
+              if item.info.Focus
+                span.focus= item.info.Focus
+
+          if item.cloud
+            each c, n in item.cloud
+              span(class=c)= n
+
+          if item.body
+            != item.body.markdown()

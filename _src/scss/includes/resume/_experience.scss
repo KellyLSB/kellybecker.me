@@ -156,3 +156,39 @@
     }
   }
 }
+
+.page-section.lexicon .panel.experience-lexicon {
+  margin: 10px 0px !important;
+
+  .info {
+    display: block;
+    margin: 17px auto;
+
+    span {
+      display: block;
+      margin: 10px auto;
+
+      &.heading {
+        // Element Style
+        @extend .ubuntu.light;
+        display: block;
+        line-height: 15px;
+        border-bottom: solid 1px #BBB;
+        margin-bottom: 5px;
+        margin-top: 10px;
+      }
+
+      &.focus {
+        color: #EE82EE;
+      }
+
+      // Child Elements
+      &.year {
+
+        // Element Style
+        @extend .ubuntu.normal;
+        float: right;
+      }
+    }
+  }
+}
