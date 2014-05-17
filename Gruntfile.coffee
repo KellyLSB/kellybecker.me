@@ -12,24 +12,30 @@ module.exports = (grunt) ->
           'cd _src/vendor/foundation',
           'npm install && bower install',
           'grunt build:assets',
-          'cd <%= dir %>',
-          'cp _src/vendor/foundation/dist/assets/css/normalize.css _src/scss/includes/layout/_normalize.css'
+          "cd #{process.cwd()}",
+          'cp _src/vendor/foundation/dist/assets/css/normalize.css _src/scss/includes/layout/_normalize.scss'
         ].join(' && ')
         stdout: true
         stderr: true
       development_copy_assets:
         command: [
-          'rm -Rf ./_build/assets/img ./_build/assets/pdf',
-          'cp -Rf ./_src/img ./_build/assets/img',
-          'cp -Rf ./_src/pdf ./_build/assets/pdf'
+          'mkdir -p ./_build/assets',
+          'rm -Rf ./_build/assets',
+          'mkdir -p ./_build/assets/img',
+          'mkdir -p ./_build/assets/pdf'
+          'cp -Rf ./_src/img/* ./_build/assets/img/',
+          'cp -Rf ./_src/pdf/* ./_build/assets/pdf/'
         ].join(' && ')
         stdout: true
         stderr: true
       release_copy_assets:
         command: [
-          'rm -Rf ./img ./assets/pdf',
-          'cp -Rf ./_src/img ./assets/img',
-          'cp -Rf ./_src/pdf ./assets/pdf'
+          'mkdir -p ./_build/assets',
+          'rm -Rf ./assets',
+          'mkdir -p ./assets/img',
+          'mkdir -p ./assets/pdf'
+          'cp -Rf ./_src/img/* ./assets/img/',
+          'cp -Rf ./_src/pdf/* ./assets/pdf/'
         ].join(' && ')
         stdout: true
         stderr: true
@@ -55,14 +61,17 @@ module.exports = (grunt) ->
         options:
           pretty: false
           debug: false
+          buildDir: '.'
         files:
           'index.html': '_src/jade/index.jade'
           'resume.html': '_src/jade/resume.jade'
-          'resume/full.html': '_src/jade/resume.jade'
-          'resume/cover.html': '_src/jade/resume.jade'
-          'resume/summarized.html': '_src/jade/resume.jade'
-          'resume/lexicon.html': '_src/jade/resume.jade'
-          'template.html': '_src/jade/template.jade'
+          '2014/index.html': '_src/jade/index.jade'
+          '2014/resume.html': '_src/jade/resume.jade'
+          '2014/resume/full.html': '_src/jade/resume.jade'
+          '2014/resume/cover.html': '_src/jade/resume.jade'
+          '2014/resume/summarized.html': '_src/jade/resume.jade'
+          '2014/resume/lexicon.html': '_src/jade/resume.jade'
+          '2014/template.html': '_src/jade/template.jade'
 
 
     compass:
@@ -140,9 +149,8 @@ module.exports = (grunt) ->
 
 
   # Load in tasks from packages
-  grunt.loadNpmTasks 'jaded'
+  grunt.loadNpmTasks 'justjaded'
   grunt.loadNpmTasks 'grunt-exec'
-  grunt.loadNpmTasks 'grunt-contrib-jade'
   grunt.loadNpmTasks 'grunt-contrib-compass'
   grunt.loadNpmTasks 'grunt-contrib-uglify'
   grunt.loadNpmTasks 'grunt-contrib-watch'

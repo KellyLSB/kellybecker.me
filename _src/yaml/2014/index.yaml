@@ -1,0 +1,2 @@
+---
+  jobs: include ../resume/resume/jobs/*
